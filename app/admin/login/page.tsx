@@ -39,7 +39,7 @@ export default function AdminLoginPage() {
     return (
         <div className="min-h-screen flex items-center justify-center px-4">
             <div className="w-full max-w-sm bg-white rounded-xl shadow-sm border border-gray-100 p-8">
-                <h1 className="text-2xl font-bold text-gray-900 mb-1">gpaisa Admin</h1>
+                <h1 className="text-2xl font-bold text-gray-900 mb-1">thinkscope Admin</h1>
                 <p className="text-sm text-gray-500 mb-6">Sign in to manage articles</p>
 
                 <form onSubmit={handleSubmit} className="space-y-4">

@@ -206,7 +206,7 @@ export default function HomeLoanSEOContent() {
 
       {/* Author & Update Line */}
       <div className="flex items-center justify-between px-1 py-2 text-[10px] md:text-xs text-gray-400">
-        <span>Content by <strong className="text-gray-500">Satyapal Khakhal</strong>, Founder, gpaisa.in</span>
+        <span>Content by <strong className="text-gray-500">Satyapal Khakhal</strong>, Founder, thinkscope.in</span>
         <span>Rates updated: May 2026</span>
       </div>
     </div>

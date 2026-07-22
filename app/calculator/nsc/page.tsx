@@ -4,23 +4,23 @@ import NSCContent from '@/components/nsc/NSCContent';
 import { computeNSCDefaults, NSC_RATE, NSC_TENURE_YEARS } from '@/lib/smallSavingsCalculations';
 
 export const metadata: Metadata = {
-  title: 'NSC Calculator 2026 — National Savings Certificate Maturity Value | gpaisa.in',
+  title: 'NSC Calculator 2026 — National Savings Certificate Maturity Value | thinkscope.in',
   description: `Free NSC Calculator for FY 2026-27. Calculate National Savings Certificate maturity value at ${NSC_RATE}% p.a. compounded annually over ${NSC_TENURE_YEARS} years. Section 80C eligible.`,
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'NSC Calculator 2026 — National Savings Certificate | gpaisa.in',
+    title: 'NSC Calculator 2026 — National Savings Certificate | thinkscope.in',
     description: `Calculate NSC maturity value at ${NSC_RATE}% p.a. instantly.`,
     type: 'website',
-    url: 'https://www.gpaisa.in/calculator/nsc',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/nsc',
+    siteName: 'thinkscope.in',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NSC Calculator 2026 | gpaisa.in',
+    title: 'NSC Calculator 2026 | thinkscope.in',
     description: `Calculate your National Savings Certificate maturity value at ${NSC_RATE}% p.a.`,
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/nsc' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/nsc' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -32,28 +32,28 @@ export default function NSCCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/nsc#webpage',
-        url: 'https://www.gpaisa.in/calculator/nsc',
+        '@id': 'https://www.thinkscope.in/calculator/nsc#webpage',
+        url: 'https://www.thinkscope.in/calculator/nsc',
         name: 'NSC Calculator 2026 — National Savings Certificate Maturity Value',
         description: `Calculate NSC maturity value at ${NSC_RATE}% p.a. over ${NSC_TENURE_YEARS} years.`,
-        isPartOf: { '@id': 'https://www.gpaisa.in/#website' },
+        isPartOf: { '@id': 'https://www.thinkscope.in/#website' },
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/nsc#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/nsc#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/nsc#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/nsc#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'NSC Calculator', item: 'https://www.gpaisa.in/calculator/nsc' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'NSC Calculator', item: 'https://www.thinkscope.in/calculator/nsc' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'NSC Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/nsc',
+        url: 'https://www.thinkscope.in/calculator/nsc',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -71,7 +71,7 @@ export default function NSCCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/nsc#faq',
+        '@id': 'https://www.thinkscope.in/calculator/nsc#faq',
         mainEntity: [
           { '@type': 'Question', name: 'What is the current NSC interest rate?', acceptedAnswer: { '@type': 'Answer', text: 'For the April–June 2026 quarter it is 7.7% p.a., compounded annually. The rate applicable when you buy the certificate is locked in for its full 5-year tenure.' } },
           { '@type': 'Question', name: 'Can I withdraw NSC before maturity?', acceptedAnswer: { '@type': 'Answer', text: 'No, premature withdrawal is generally not allowed except in specific cases like death of the holder or a court order.' } },

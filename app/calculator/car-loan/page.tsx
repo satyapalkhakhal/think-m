@@ -35,31 +35,31 @@ function computeCarLoanDefaults() {
 
 // ─── Metadata ─────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Car Loan EMI Calculator 2026 — Interest Rate, Amortisation & Bank Comparison | gpaisa.in",
+  title: "Car Loan EMI Calculator 2026 — Interest Rate, Amortisation & Bank Comparison | thinkscope.in",
   description: "India's most complete car loan calculator. Calculate EMI for any car loan instantly. Compare SBI, HDFC, ICICI, Axis, Kotak, Bank of Baroda rates. With amortisation schedule, prepayment simulator, and tax benefits. Updated May 2026.",
-  authors: [{ name: "Satyapal Khakhal", url: "https://www.gpaisa.in/about" }],
-  alternates: { canonical: "https://www.gpaisa.in/calculator/car-loan" },
+  authors: [{ name: "Satyapal Khakhal", url: "https://www.thinkscope.in/about" }],
+  alternates: { canonical: "https://www.thinkscope.in/calculator/car-loan" },
   openGraph: {
-    title: "Car Loan EMI Calculator 2026 — Bank Rate Comparison & Amortisation | gpaisa.in",
+    title: "Car Loan EMI Calculator 2026 — Bank Rate Comparison & Amortisation | thinkscope.in",
     description: "Calculate car loan EMI instantly. Compare SBI, HDFC, ICICI, Axis, Kotak rates. ₹8 lakh at 9.5% for 5 years = ₹16,790/month EMI. Updated May 2026.",
-    url: "https://www.gpaisa.in/calculator/car-loan",
-    siteName: "gpaisa.in",
+    url: "https://www.thinkscope.in/calculator/car-loan",
+    siteName: "thinkscope.in",
     locale: "en_IN",
     type: "website",
     images: [{
-      url: "https://www.gpaisa.in/og-car-loan-calculator.jpg",
+      url: "https://www.thinkscope.in/og-car-loan-calculator.jpg",
       width: 1200,
       height: 630,
-      alt: "Car Loan EMI Calculator India 2026 — Bank Rate Comparison | gpaisa.in"
+      alt: "Car Loan EMI Calculator India 2026 — Bank Rate Comparison | thinkscope.in"
     }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Car Loan Calculator 2026 — ₹8L at 9.5% for 5 yrs = ₹16,790/month | gpaisa.in",
+    title: "Car Loan Calculator 2026 — ₹8L at 9.5% for 5 yrs = ₹16,790/month | thinkscope.in",
     description: "Calculate car loan EMI instantly. Compare SBI, HDFC, ICICI, Axis, Kotak, Bank of Baroda rates. Updated May 2026.",
-    images: ["https://www.gpaisa.in/og-car-loan-calculator.jpg"],
-    creator: "@gpaisa_in",
-    site: "@gpaisa_in"
+    images: ["https://www.thinkscope.in/og-car-loan-calculator.jpg"],
+    creator: "@thinkscope_in",
+    site: "@thinkscope_in"
   },
   robots: {
     index: true,
@@ -76,31 +76,31 @@ export default function CarLoanCalculatorPage() {
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "@id": "https://www.gpaisa.in/calculator/car-loan#webpage",
-      "url": "https://www.gpaisa.in/calculator/car-loan",
-      "name": "Car Loan EMI Calculator 2026 — Bank Rate Comparison & Amortisation | gpaisa.in",
+      "@id": "https://www.thinkscope.in/calculator/car-loan#webpage",
+      "url": "https://www.thinkscope.in/calculator/car-loan",
+      "name": "Car Loan EMI Calculator 2026 — Bank Rate Comparison & Amortisation | thinkscope.in",
       "description": "India's most complete car loan calculator with bank rate comparison, amortisation schedule, and prepayment simulator.",
-      "isPartOf": { "@id": "https://www.gpaisa.in/#website" },
-      "author": { "@type": "Person", "name": "Satyapal Khakhal", "url": "https://www.gpaisa.in/about" },
-      "breadcrumb": { "@id": "https://www.gpaisa.in/calculator/car-loan#breadcrumb" },
+      "isPartOf": { "@id": "https://www.thinkscope.in/#website" },
+      "author": { "@type": "Person", "name": "Satyapal Khakhal", "url": "https://www.thinkscope.in/about" },
+      "breadcrumb": { "@id": "https://www.thinkscope.in/calculator/car-loan#breadcrumb" },
       "inLanguage": "en-IN",
       "dateModified": "2026-05-22"
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
-      "@id": "https://www.gpaisa.in/calculator/car-loan#breadcrumb",
+      "@id": "https://www.thinkscope.in/calculator/car-loan#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.gpaisa.in" },
-        { "@type": "ListItem", "position": 2, "name": "Calculator", "item": "https://www.gpaisa.in/calculator" },
-        { "@type": "ListItem", "position": 3, "name": "Car Loan Calculator", "item": "https://www.gpaisa.in/calculator/car-loan" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.thinkscope.in" },
+        { "@type": "ListItem", "position": 2, "name": "Calculator", "item": "https://www.thinkscope.in/calculator" },
+        { "@type": "ListItem", "position": 3, "name": "Car Loan Calculator", "item": "https://www.thinkscope.in/calculator/car-loan" }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Car Loan EMI Calculator India 2026",
-      "url": "https://www.gpaisa.in/calculator/car-loan",
+      "url": "https://www.thinkscope.in/calculator/car-loan",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Web",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
@@ -117,7 +117,7 @@ export default function CarLoanCalculatorPage() {
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "@id": "https://www.gpaisa.in/calculator/car-loan#faq",
+      "@id": "https://www.thinkscope.in/calculator/car-loan#faq",
       "mainEntity": [
         {
           "@type": "Question",

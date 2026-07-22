@@ -21,20 +21,20 @@ export async function generateMetadata({ params, searchParams }: {
 
     if (!category) {
         return {
-            title: 'Category Not Found | gpaisa.in',
+            title: 'Category Not Found | thinkscope.in',
         };
     }
 
     const canonicalUrl = currentPage > 1
-        ? `https://www.gpaisa.in/category/${slug}?page=${currentPage}`
-        : `https://www.gpaisa.in/category/${slug}`;
+        ? `https://www.thinkscope.in/category/${slug}?page=${currentPage}`
+        : `https://www.thinkscope.in/category/${slug}`;
 
     // A category hub with zero published articles is a soft-404 — Google penalizes
     // thin/empty pages that return 200. Noindex it until it has real content.
     const hasArticles = (await fetchArticlesByCategorySlug(slug, 1)).length > 0;
 
     return {
-        title: currentPage > 1 ? `${category.name} — Page ${currentPage} | gpaisa.in` : `${category.name} | gpaisa.in`,
+        title: currentPage > 1 ? `${category.name} — Page ${currentPage} | thinkscope.in` : `${category.name} | thinkscope.in`,
         description: category.description,
         alternates: {
             canonical: canonicalUrl
@@ -73,8 +73,8 @@ export default async function CategoryPage({ params, searchParams }: {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: category.name, item: `https://www.gpaisa.in/category/${slug}` },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: category.name, item: `https://www.thinkscope.in/category/${slug}` },
         ],
     };
 

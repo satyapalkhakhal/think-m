@@ -307,7 +307,7 @@ export default function EPFContent({ first5Years }: Props) {
       {/* ── Author + Related Links ── */}
       <div className="bg-gray-50 rounded-2xl border border-gray-200 px-4 md:px-6 py-4 space-y-3">
         <div className="flex items-center justify-between text-xs text-gray-500">
-          <span>Content by <strong className="text-gray-700">Satyapal Khakhal</strong>, Founder, gpaisa.in</span>
+          <span>Content by <strong className="text-gray-700">Satyapal Khakhal</strong>, Founder, thinkscope.in</span>
           <span>Updated: May 2026</span>
         </div>
         <div className="border-t border-gray-200 pt-3">

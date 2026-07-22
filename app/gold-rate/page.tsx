@@ -37,15 +37,15 @@ export async function generateMetadata(): Promise<Metadata> {
     const todayDate = getTodayIST();
 
     return {
-        title: `Gold Rate Today in India — ${todayDate} | gpaisa.in`,
+        title: `Gold Rate Today in India — ${todayDate} | thinkscope.in`,
         description: `Check today's gold rate in India on ${todayDate}. Live 24K, 22K, 18K and 916 gold prices updated daily with calculator, historical data, price trends, and gold vs silver comparison.`,
 
         openGraph: {
             title: `Gold Rate Today in India — ${todayDate} | 24K, 22K, 18K Prices`,
             description: `Check today's gold rate in India on ${todayDate}. Live 24K, 22K and 18K gold prices with daily updates, market trends, and gold vs silver comparison.`,
             type: 'website',
-            url: 'https://www.gpaisa.in/gold-rate',
-            siteName: 'gpaisa.in',
+            url: 'https://www.thinkscope.in/gold-rate',
+            siteName: 'thinkscope.in',
             locale: 'en_IN',
             images: [
                 {
@@ -63,7 +63,7 @@ export async function generateMetadata(): Promise<Metadata> {
             images: ['https://res.cloudinary.com/dpqtibvzn/image/upload/v1776489180/thinkscope/rfjxaypw68ncjyc5plbz.jpg'],
         },
         alternates: {
-            canonical: 'https://www.gpaisa.in/gold-rate'
+            canonical: 'https://www.thinkscope.in/gold-rate'
         },
         robots: {
             index: true,
@@ -86,13 +86,13 @@ export default async function GoldRatePage() {
         '@type': 'WebPage',
         name: `Gold Rate Today in India — ${todayDate}`,
         description: `Check today's gold rate in all major Indian cities on ${todayDate}. Live 24K, 22K, 18K, and 916 gold prices updated in real-time with market trends and analysis.`,
-        url: 'https://www.gpaisa.in/gold-rate',
+        url: 'https://www.thinkscope.in/gold-rate',
         inLanguage: 'en-IN',
         dateModified: new Date().toISOString().split('T')[0],
         publisher: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
-            logo: { '@type': 'ImageObject', url: 'https://www.gpaisa.in/icon-512.png' },
+            name: 'thinkscope.in',
+            logo: { '@type': 'ImageObject', url: 'https://www.thinkscope.in/icon-512.png' },
         },
         image: 'https://res.cloudinary.com/dpqtibvzn/image/upload/v1776489180/thinkscope/rfjxaypw68ncjyc5plbz.jpg',
         mainEntity: {
@@ -104,8 +104,8 @@ export default async function GoldRatePage() {
     const breadcrumbSchema = {
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'Gold Rate', item: 'https://www.gpaisa.in/gold-rate' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'Gold Rate', item: 'https://www.thinkscope.in/gold-rate' },
         ],
     };
     const faqSchema = {
@@ -128,15 +128,15 @@ export default async function GoldRatePage() {
         headline: `Gold Rate Today in India — ${todayDate} | Market Analysis & Investment Guide 2026`,
         description: 'Comprehensive guide to gold prices in India covering market trends, what affects gold prices, city-wise rates, and investment comparison with silver.',
         image: 'https://res.cloudinary.com/dpqtibvzn/image/upload/v1776489180/thinkscope/rfjxaypw68ncjyc5plbz.jpg',
-        author: { '@type': 'Organization', name: 'gpaisa.in', url: 'https://www.gpaisa.in' },
+        author: { '@type': 'Organization', name: 'thinkscope.in', url: 'https://www.thinkscope.in' },
         publisher: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
-            logo: { '@type': 'ImageObject', url: 'https://www.gpaisa.in/icon-512.png' },
+            name: 'thinkscope.in',
+            logo: { '@type': 'ImageObject', url: 'https://www.thinkscope.in/icon-512.png' },
         },
         datePublished: '2026-01-01',
         dateModified: new Date().toISOString().split('T')[0],
-        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gpaisa.in/gold-rate' },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.thinkscope.in/gold-rate' },
         inLanguage: 'en-IN',
     };
 
@@ -146,12 +146,12 @@ export default async function GoldRatePage() {
         '@type': 'Dataset',
         name: 'Gold Price History India (1964–2026)',
         description: 'Annual 24K gold prices per 10 grams in India from 1964 to 2026, sourced from RBI Handbook of Statistics, IBJA, and MCX historical records.',
-        url: 'https://www.gpaisa.in/gold-rate#gold-price-history',
+        url: 'https://www.thinkscope.in/gold-rate#gold-price-history',
         license: 'https://creativecommons.org/licenses/by/4.0/',
         creator: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
-            url: 'https://www.gpaisa.in',
+            name: 'thinkscope.in',
+            url: 'https://www.thinkscope.in',
         },
         temporalCoverage: '1964/2026',
         variableMeasured: 'Gold price in INR per 10 grams (24K)',
@@ -159,7 +159,7 @@ export default async function GoldRatePage() {
         distribution: {
             '@type': 'DataDownload',
             encodingFormat: 'text/csv',
-            contentUrl: 'https://www.gpaisa.in/gold_prices_india_1964_2026.csv',
+            contentUrl: 'https://www.thinkscope.in/gold_prices_india_1964_2026.csv',
         },
     };
 

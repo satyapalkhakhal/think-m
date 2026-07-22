@@ -4,23 +4,23 @@ import SCSSContent from '@/components/scss/SCSSContent';
 import { computeSCSSDefaults, SCSS_RATE, SCSS_TENURE_YEARS } from '@/lib/smallSavingsCalculations';
 
 export const metadata: Metadata = {
-  title: 'SCSS Calculator 2026 — Senior Citizens Savings Scheme Payout | gpaisa.in',
+  title: 'SCSS Calculator 2026 — Senior Citizens Savings Scheme Payout | thinkscope.in',
   description: `Free SCSS Calculator for FY 2026-27. Calculate Senior Citizens Savings Scheme quarterly payout and maturity value at ${SCSS_RATE}% p.a. over ${SCSS_TENURE_YEARS} years.`,
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'SCSS Calculator 2026 — Senior Citizens Savings Scheme | gpaisa.in',
+    title: 'SCSS Calculator 2026 — Senior Citizens Savings Scheme | thinkscope.in',
     description: `Calculate SCSS quarterly payout and maturity value at ${SCSS_RATE}% p.a. instantly.`,
     type: 'website',
-    url: 'https://www.gpaisa.in/calculator/scss',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/scss',
+    siteName: 'thinkscope.in',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SCSS Calculator 2026 | gpaisa.in',
+    title: 'SCSS Calculator 2026 | thinkscope.in',
     description: `Calculate your Senior Citizens Savings Scheme quarterly payout at ${SCSS_RATE}% p.a.`,
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/scss' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/scss' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -32,28 +32,28 @@ export default function SCSSCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/scss#webpage',
-        url: 'https://www.gpaisa.in/calculator/scss',
+        '@id': 'https://www.thinkscope.in/calculator/scss#webpage',
+        url: 'https://www.thinkscope.in/calculator/scss',
         name: 'SCSS Calculator 2026 — Senior Citizens Savings Scheme Payout',
         description: `Calculate SCSS quarterly payout and maturity value at ${SCSS_RATE}% p.a. over ${SCSS_TENURE_YEARS} years.`,
-        isPartOf: { '@id': 'https://www.gpaisa.in/#website' },
+        isPartOf: { '@id': 'https://www.thinkscope.in/#website' },
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/scss#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/scss#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/scss#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/scss#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'SCSS Calculator', item: 'https://www.gpaisa.in/calculator/scss' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'SCSS Calculator', item: 'https://www.thinkscope.in/calculator/scss' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'SCSS Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/scss',
+        url: 'https://www.thinkscope.in/calculator/scss',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -71,7 +71,7 @@ export default function SCSSCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/scss#faq',
+        '@id': 'https://www.thinkscope.in/calculator/scss#faq',
         mainEntity: [
           { '@type': 'Question', name: 'Who is eligible to open an SCSS account?', acceptedAnswer: { '@type': 'Answer', text: 'Individuals aged 60 or above; retired defence personnel from age 55; civilian VRS/superannuation retirees from age 50.' } },
           { '@type': 'Question', name: 'How is SCSS interest paid out?', acceptedAnswer: { '@type': 'Answer', text: 'Interest is paid quarterly directly to your savings account — it is not compounded.' } },

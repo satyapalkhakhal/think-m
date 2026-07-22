@@ -27,7 +27,7 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
     const cityObj = cities.find(c => c.slug === params.city);
 
     if (!cityObj) {
-        return { title: 'City Not Found | gpaisa.in' };
+        return { title: 'City Not Found | thinkscope.in' };
     }
 
     const cityName = cityObj.city;
@@ -40,7 +40,7 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
 
 
     return {
-        title: `Silver Rate in ${cityName} Today — ${todayDate} | gpaisa.in`,
+        title: `Silver Rate in ${cityName} Today — ${todayDate} | thinkscope.in`,
         description: `Check today's silver rate in ${cityName}, ${state} on ${todayDate}. Live 999 & 925 silver prices per gram and kg.${tagline ? ` ${tagline}.` : ''} ${mainMarkets.length ? `Silver markets at ${mainMarkets.join(' & ')}.` : ''} Calculator, history & buying guide.`,
         robots: {
             index: true,
@@ -51,10 +51,10 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
             title: `Silver Rate in ${cityName} Today - Live Prices${tagline ? ` | ${tagline}` : ''}`,
             description: `Today's silver price in ${cityName}, ${state}. Live rate updates, historical trends & buying guide.`,
             type: 'article',
-            url: `https://www.gpaisa.in/silver-rate/${citySlug}`,
-            siteName: 'gpaisa.in',
+            url: `https://www.thinkscope.in/silver-rate/${citySlug}`,
+            siteName: 'thinkscope.in',
             locale: 'en_IN',
-            images: [{ url: 'https://www.gpaisa.in/android-chrome-512x512.png', width: 512, height: 512, alt: `Silver Rate in ${cityName} Today` }],
+            images: [{ url: 'https://www.thinkscope.in/android-chrome-512x512.png', width: 512, height: 512, alt: `Silver Rate in ${cityName} Today` }],
         },
         twitter: {
             card: 'summary_large_image',
@@ -62,7 +62,7 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
             description: `Today's silver price in ${cityName} with live rate updates and historical trends.`,
         },
         alternates: {
-            canonical: `https://www.gpaisa.in/silver-rate/${citySlug}`,
+            canonical: `https://www.thinkscope.in/silver-rate/${citySlug}`,
         },
     };
 }
@@ -101,14 +101,14 @@ export default async function CitySilverRatePage(props: { params: Promise<{ city
         "@type": "WebPage",
         name: `Silver Rate in ${cityName} Today`,
         description: `Current silver rates for ${cityName}${silverInfo ? `. ${silverInfo.tagline}` : ''}.`,
-        url: `https://www.gpaisa.in/silver-rate/${citySlug}`,
+        url: `https://www.thinkscope.in/silver-rate/${citySlug}`,
         inLanguage: 'en-IN',
-        isPartOf: { "@type": "WebSite", name: "gpaisa.in", url: "https://www.gpaisa.in" },
+        isPartOf: { "@type": "WebSite", name: "thinkscope.in", url: "https://www.thinkscope.in" },
         publisher: {
             "@type": "Organization",
-            name: "gpaisa.in",
-            url: "https://www.gpaisa.in",
-            logo: { "@type": "ImageObject", url: "https://www.gpaisa.in/android-chrome-512x512.png" },
+            name: "thinkscope.in",
+            url: "https://www.thinkscope.in",
+            logo: { "@type": "ImageObject", url: "https://www.thinkscope.in/android-chrome-512x512.png" },
         },
         dateModified: new Date().toISOString(),
     };
@@ -117,9 +117,9 @@ export default async function CitySilverRatePage(props: { params: Promise<{ city
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.gpaisa.in" },
-            { "@type": "ListItem", position: 2, name: "Silver Rates", item: "https://www.gpaisa.in/silver-rate" },
-            { "@type": "ListItem", position: 3, name: cityName, item: `https://www.gpaisa.in/silver-rate/${citySlug}` },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thinkscope.in" },
+            { "@type": "ListItem", position: 2, name: "Silver Rates", item: "https://www.thinkscope.in/silver-rate" },
+            { "@type": "ListItem", position: 3, name: cityName, item: `https://www.thinkscope.in/silver-rate/${citySlug}` },
         ],
     };
 
@@ -166,7 +166,7 @@ export default async function CitySilverRatePage(props: { params: Promise<{ city
             {
                 "@type": "Question" as const,
                 name: `What is the silver rate in ${cityName} today?`,
-                acceptedAnswer: { "@type": "Answer" as const, text: `Check the latest live silver rates in ${cityName} on gpaisa.in. We provide up-to-date prices per gram and per kg.` },
+                acceptedAnswer: { "@type": "Answer" as const, text: `Check the latest live silver rates in ${cityName} on thinkscope.in. We provide up-to-date prices per gram and per kg.` },
             },
             {
                 "@type": "Question" as const,
@@ -186,15 +186,15 @@ export default async function CitySilverRatePage(props: { params: Promise<{ city
         "@type": "Article",
         headline: `Silver Rate in ${cityName} Today${silverInfo ? ` — ${silverInfo.tagline}` : ''}`,
         description: silverInfo?.heroDescription || `Live silver prices in ${cityName} with calculator and history.`,
-        author: { "@type": "Organization", name: "gpaisa.in", url: "https://www.gpaisa.in" },
+        author: { "@type": "Organization", name: "thinkscope.in", url: "https://www.thinkscope.in" },
         publisher: {
             "@type": "Organization",
-            name: "gpaisa.in",
-            logo: { "@type": "ImageObject", url: "https://www.gpaisa.in/android-chrome-512x512.png" },
+            name: "thinkscope.in",
+            logo: { "@type": "ImageObject", url: "https://www.thinkscope.in/android-chrome-512x512.png" },
         },
         datePublished: "2026-04-20",
         dateModified: new Date().toISOString(),
-        mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.gpaisa.in/silver-rate/${citySlug}` },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.thinkscope.in/silver-rate/${citySlug}` },
         inLanguage: "en-IN",
     };
 
@@ -521,7 +521,7 @@ export default async function CitySilverRatePage(props: { params: Promise<{ city
                 <footer className="text-center">
                     <LastUpdatedTime />
                     <p className="text-xs text-gray-400 mt-2">
-                        Written by the gpaisa.in editorial team · {cityName} silver market expert guide
+                        Written by the thinkscope.in editorial team · {cityName} silver market expert guide
                     </p>
                 </footer>
             </div>

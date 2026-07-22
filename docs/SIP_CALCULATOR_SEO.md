@@ -1,7 +1,7 @@
 # SIP Calculator SEO Implementation Guide
 
 ## 🎯 Overview
-This document outlines the comprehensive SEO implementation for the SIP Calculator page on gpaisa.in, designed to rank for high-volume keywords and attract organic traffic from Google Search and Google Discover.
+This document outlines the comprehensive SEO implementation for the SIP Calculator page on thinkscope.in, designed to rank for high-volume keywords and attract organic traffic from Google Search and Google Discover.
 
 ## 📊 Target Keywords & Search Volume
 
@@ -31,7 +31,7 @@ This document outlines the comprehensive SEO implementation for the SIP Calculat
 
 #### Title Tag
 ```
-SIP Calculator Online - Calculate SIP Returns & Investment Growth | Gpaisa
+SIP Calculator Online - Calculate SIP Returns & Investment Growth | thinkscope
 ```
 - Length: 72 characters (optimal)
 - Includes primary keyword at the start
@@ -115,10 +115,10 @@ Home > Finance > SIP Calculator
 
 #### Open Graph Tags
 ```html
-og:title: SIP Calculator - Calculate Your Mutual Fund Returns | Gpaisa
+og:title: SIP Calculator - Calculate Your Mutual Fund Returns | thinkscope
 og:description: Plan your investments with our advanced SIP Calculator...
 og:type: website
-og:url: https://gpaisa.in/sip-calculator
+og:url: https://thinkscope.in/sip-calculator
 og:image: /og-sip-calculator.jpg (1200x630px)
 ```
 
@@ -129,7 +129,7 @@ og:image: /og-sip-calculator.jpg (1200x630px)
 
 #### Canonical URL
 ```
-https://gpaisa.in/sip-calculator
+https://thinkscope.in/sip-calculator
 ```
 
 #### Robots Meta
@@ -324,12 +324,12 @@ https://gpaisa.in/sip-calculator
 ## 📞 Support & Feedback
 
 For questions or suggestions about the SIP Calculator:
-- Email: support@gpaisa.in
+- Email: support@thinkscope.in
 - Feedback form: /contact
-- Social media: @gpaisa
+- Social media: @thinkscope
 
 ---
 
 **Last Updated**: January 9, 2026
 **Version**: 1.0
-**Author**: Gpaisa SEO Team
+**Author**: thinkscope SEO Team

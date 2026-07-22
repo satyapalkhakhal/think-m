@@ -21,33 +21,33 @@ function computeGSTDefaults() {
 
 // ─── Metadata ─────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST Breakdown | gpaisa.in',
+  title: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST Breakdown | thinkscope.in',
   description: "India's most complete GST calculator. Add or remove GST instantly. Get CGST, SGST, IGST breakdown for all slabs — 5%, 18%, 40%. With rate guide, worked examples, and FAQ. Updated 2026.",
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST Breakdown | gpaisa.in',
+    title: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST Breakdown | thinkscope.in',
     description: "India's most complete GST calculator. Add or remove GST instantly. Get CGST, SGST, IGST breakdown for all slabs — 5%, 18%, 40%.",
     type: 'website',
-    url: 'https://www.gpaisa.in/calculator/gst',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/gst',
+    siteName: 'thinkscope.in',
     images: [
       {
         url: '/og-gst-calculator.jpg',
         width: 1200,
         height: 630,
-        alt: 'GST Calculator India 2026 — CGST SGST IGST Breakdown | gpaisa.in',
+        alt: 'GST Calculator India 2026 — CGST SGST IGST Breakdown | thinkscope.in',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST | gpaisa.in',
+    title: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST | thinkscope.in',
     description: "India's most complete GST calculator. CGST, SGST, IGST breakdown for all slabs — 5%, 18%, 40%. Updated 2026.",
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
     images: ['/og-gst-calculator.jpg'],
   },
   alternates: {
-    canonical: 'https://www.gpaisa.in/calculator/gst',
+    canonical: 'https://www.thinkscope.in/calculator/gst',
   },
   robots: {
     index: true,
@@ -73,24 +73,24 @@ export default function GSTCalculatorPage() {
       // ── WebPage
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/gst#webpage',
-        url: 'https://www.gpaisa.in/calculator/gst',
-        name: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST Breakdown | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/gst#webpage',
+        url: 'https://www.thinkscope.in/calculator/gst',
+        name: 'GST Calculator India 2026 — Add/Remove GST, CGST SGST IGST Breakdown | thinkscope.in',
         description: "India's most complete GST calculator. Add or remove GST instantly. Get CGST, SGST, IGST breakdown for all slabs — 5%, 18%, 40%.",
-        isPartOf: { '@id': 'https://www.gpaisa.in/#website' },
+        isPartOf: { '@id': 'https://www.thinkscope.in/#website' },
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/gst#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/gst#breadcrumb' },
         inLanguage: 'en-IN',
       },
 
       // ── BreadcrumbList
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/gst#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/gst#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'GST Calculator', item: 'https://www.gpaisa.in/calculator/gst' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'GST Calculator', item: 'https://www.thinkscope.in/calculator/gst' },
         ],
       },
 
@@ -128,7 +128,7 @@ export default function GSTCalculatorPage() {
       // ── FAQPage
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/gst#faq',
+        '@id': 'https://www.thinkscope.in/calculator/gst#faq',
         mainEntity: [
           {
             '@type': 'Question',

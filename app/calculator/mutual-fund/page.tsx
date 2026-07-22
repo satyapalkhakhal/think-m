@@ -10,25 +10,25 @@ function computeMFDefaults() {
 }
 
 export const metadata: Metadata = {
-  title: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Examples & Tax Guide | gpaisa.in',
+  title: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Examples & Tax Guide | thinkscope.in',
   description: 'Free Mutual Fund Calculator India (2026). SIP formula FV=P×[((1+r)^n−1)/r]×(1+r) with 4 worked examples, SIP vs lumpsum comparison, fund type presets, year-wise growth table, and tax guide for equity & debt funds.',
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Examples & Tax Guide | gpaisa.in',
+    title: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Examples & Tax Guide | thinkscope.in',
     description: 'Free MF calculator with SIP & lumpsum formulas, 4 worked examples, year-wise growth table, SIP vs lumpsum comparison, fund type presets, and 2026 tax guide.',
     type: 'article',
-    url: 'https://www.gpaisa.in/calculator/mutual-fund',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/mutual-fund',
+    siteName: 'thinkscope.in',
     images: [{ url: '/og-mutual-fund-calculator.jpg', width: 1200, height: 630, alt: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Tax & Comparison | gpaisa.in',
+    title: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Tax & Comparison | thinkscope.in',
     description: 'Calculate SIP & lumpsum returns instantly. Formula, year-wise growth table, SIP vs lumpsum comparison, fund type presets, tax guide. Free MF calculator.',
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
     images: ['/og-mutual-fund-calculator.jpg'],
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/mutual-fund' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/mutual-fund' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -40,27 +40,27 @@ export default function MutualFundCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/mutual-fund#webpage',
-        url: 'https://www.gpaisa.in/calculator/mutual-fund',
-        name: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Examples & Tax Guide | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/mutual-fund#webpage',
+        url: 'https://www.thinkscope.in/calculator/mutual-fund',
+        name: 'Mutual Fund Calculator 2026 — SIP & Lumpsum Returns, Examples & Tax Guide | thinkscope.in',
         description: 'Free MF calculator with SIP & lumpsum formulas, fund type presets, year-wise growth, SIP vs lumpsum comparison, and 2026 tax guide.',
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/mutual-fund#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/mutual-fund#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/mutual-fund#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/mutual-fund#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'Mutual Fund Calculator', item: 'https://www.gpaisa.in/calculator/mutual-fund' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'Mutual Fund Calculator', item: 'https://www.thinkscope.in/calculator/mutual-fund' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'Mutual Fund Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/mutual-fund',
+        url: 'https://www.thinkscope.in/calculator/mutual-fund',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -80,7 +80,7 @@ export default function MutualFundCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/mutual-fund#faq',
+        '@id': 'https://www.thinkscope.in/calculator/mutual-fund#faq',
         mainEntity: [
           { '@type': 'Question', name: 'How is SIP return calculated?', acceptedAnswer: { '@type': 'Answer', text: 'SIP return uses: FV = P × [((1 + r)^n − 1) / r] × (1 + r), where P is monthly investment, r is monthly rate (annual ÷ 12 ÷ 100), n is total months. For ₹10,000/mo at 12% for 10 years: invested = ₹12,00,000, total = ₹23,23,391.' } },
           { '@type': 'Question', name: 'Is ₹10,000 SIP enough to become a crorepati?', acceptedAnswer: { '@type': 'Answer', text: 'Yes — at 12% p.a. for about 21 years, a ₹10,000/month SIP grows to ₹1 crore. At 14% p.a. it takes about 19 years. Start early and stay invested through market cycles.' } },

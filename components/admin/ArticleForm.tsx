@@ -28,7 +28,7 @@ export default function ArticleForm({ mode, initialArticle }: ArticleFormProps) 
     const [content, setContent] = useState(initialArticle?.content || '');
     const [imageUrl, setImageUrl] = useState(initialArticle?.image_url || '');
     const [imageAlt, setImageAlt] = useState('');
-    const [author, setAuthor] = useState(initialArticle?.author || 'Gpaisa Desk');
+    const [author, setAuthor] = useState(initialArticle?.author || 'thinkscope Desk');
     const [tags, setTags] = useState((initialArticle?.tags || []).join(', '));
     const [isFeatured, setIsFeatured] = useState(!!initialArticle?.is_featured);
     const [isEditorsPick, setIsEditorsPick] = useState(!!initialArticle?.is_editors_pick);

@@ -1,7 +1,7 @@
-# SEO Keyword Strategy for Gpaisa.in - Gold Rate Traffic Focus
+# SEO Keyword Strategy for thinkscope.in - Gold Rate Traffic Focus
 
 ## Executive Summary
-This document outlines a comprehensive SEO keyword strategy to attract high-quality gold rate traffic to gpaisa.in. The strategy focuses on high-intent, location-specific, and long-tail keywords that users actively search for when looking for gold rates.
+This document outlines a comprehensive SEO keyword strategy to attract high-quality gold rate traffic to thinkscope.in. The strategy focuses on high-intent, location-specific, and long-tail keywords that users actively search for when looking for gold rates.
 
 ---
 
@@ -287,8 +287,8 @@ Consider creating content in:
 
 ### 2. **Meta Title Templates**
 ```
-City Pages: "Gold Rate Today in [City] - 24K, 22K, 18K Prices | gpaisa.in"
-Main Page: "Gold Rate Today in India - Live City-Wise Prices | gpaisa.in"
+City Pages: "Gold Rate Today in [City] - 24K, 22K, 18K Prices | thinkscope.in"
+Main Page: "Gold Rate Today in India - Live City-Wise Prices | thinkscope.in"
 ```
 
 ### 3. **Meta Description Templates**

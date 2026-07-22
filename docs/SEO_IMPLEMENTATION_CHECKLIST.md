@@ -1,4 +1,4 @@
-# SEO Implementation Checklist for Gpaisa.in
+# SEO Implementation Checklist for thinkscope.in
 
 ## ✅ Completed Tasks
 
@@ -28,18 +28,18 @@
 #### 1. **Submit to Google Search Console**
 ```bash
 # URLs to submit:
-- https://gpaisa.in/gold-rate
-- https://gpaisa.in/gold-rate/delhi
-- https://gpaisa.in/gold-rate/mumbai
-- https://gpaisa.in/gold-rate/bangalore
-- https://gpaisa.in/gold-rate/chennai
-- https://gpaisa.in/gold-rate/hyderabad
-- https://gpaisa.in/gold-rate/kolkata
-- https://gpaisa.in/gold-rate/pune
-- https://gpaisa.in/gold-rate/ahmedabad
-- https://gpaisa.in/gold-rate/kerala
-- https://gpaisa.in/gold-rate/coimbatore
-- https://gpaisa.in/finance
+- https://thinkscope.in/gold-rate
+- https://thinkscope.in/gold-rate/delhi
+- https://thinkscope.in/gold-rate/mumbai
+- https://thinkscope.in/gold-rate/bangalore
+- https://thinkscope.in/gold-rate/chennai
+- https://thinkscope.in/gold-rate/hyderabad
+- https://thinkscope.in/gold-rate/kolkata
+- https://thinkscope.in/gold-rate/pune
+- https://thinkscope.in/gold-rate/ahmedabad
+- https://thinkscope.in/gold-rate/kerala
+- https://thinkscope.in/gold-rate/coimbatore
+- https://thinkscope.in/finance
 ```
 
 #### 2. **Create Google My Business Listings**

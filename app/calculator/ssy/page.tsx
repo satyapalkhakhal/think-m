@@ -4,23 +4,23 @@ import SSYContent from '@/components/ssy/SSYContent';
 import { computeSSYDefaults, SSY_RATE } from '@/lib/smallSavingsCalculations';
 
 export const metadata: Metadata = {
-  title: 'Sukanya Samriddhi Yojana (SSY) Calculator 2026 — Maturity Value | gpaisa.in',
+  title: 'Sukanya Samriddhi Yojana (SSY) Calculator 2026 — Maturity Value | thinkscope.in',
   description: `Free SSY Calculator for FY 2026-27. Calculate Sukanya Samriddhi Yojana maturity value at ${SSY_RATE}% p.a. with year-wise growth table. Tax-free under Section 80C.`,
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'Sukanya Samriddhi Yojana (SSY) Calculator 2026 | gpaisa.in',
+    title: 'Sukanya Samriddhi Yojana (SSY) Calculator 2026 | thinkscope.in',
     description: `Calculate your SSY maturity value at ${SSY_RATE}% p.a. instantly with a year-wise growth table.`,
     type: 'website',
-    url: 'https://www.gpaisa.in/calculator/ssy',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/ssy',
+    siteName: 'thinkscope.in',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SSY Calculator 2026 | gpaisa.in',
+    title: 'SSY Calculator 2026 | thinkscope.in',
     description: `Calculate your Sukanya Samriddhi Yojana maturity value at ${SSY_RATE}% p.a.`,
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/ssy' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/ssy' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -32,28 +32,28 @@ export default function SSYCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/ssy#webpage',
-        url: 'https://www.gpaisa.in/calculator/ssy',
+        '@id': 'https://www.thinkscope.in/calculator/ssy#webpage',
+        url: 'https://www.thinkscope.in/calculator/ssy',
         name: 'Sukanya Samriddhi Yojana (SSY) Calculator 2026',
         description: `Calculate SSY maturity value at ${SSY_RATE}% p.a. with year-wise growth table.`,
-        isPartOf: { '@id': 'https://www.gpaisa.in/#website' },
+        isPartOf: { '@id': 'https://www.thinkscope.in/#website' },
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/ssy#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/ssy#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/ssy#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/ssy#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'SSY Calculator', item: 'https://www.gpaisa.in/calculator/ssy' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'SSY Calculator', item: 'https://www.thinkscope.in/calculator/ssy' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'SSY Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/ssy',
+        url: 'https://www.thinkscope.in/calculator/ssy',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -71,7 +71,7 @@ export default function SSYCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/ssy#faq',
+        '@id': 'https://www.thinkscope.in/calculator/ssy#faq',
         mainEntity: [
           { '@type': 'Question', name: 'Who is eligible to open an SSY account?', acceptedAnswer: { '@type': 'Answer', text: 'Any parent or legal guardian of a girl child below 10 years of age can open an SSY account. A maximum of two accounts per family is allowed (three in case of twins/triplets in the second birth).' } },
           { '@type': 'Question', name: 'What is the minimum and maximum deposit for SSY?', acceptedAnswer: { '@type': 'Answer', text: "Minimum ₹250 per year and maximum ₹1,50,000 per year." } },

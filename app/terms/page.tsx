@@ -2,10 +2,10 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: 'Terms of Service - gpaisa.in',
-    description: 'Terms of Service for gpaisa.in - Read our terms and conditions for using our financial information portal.',
+    title: 'Terms of Service - thinkscope.in',
+    description: 'Terms of Service for thinkscope.in - Read our terms and conditions for using our financial information portal.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/terms',
+        canonical: 'https://www.thinkscope.in/terms',
     },
 };
 
@@ -25,7 +25,7 @@ export default function TermsPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
                             <p className="text-gray-700 mb-4">
-                                Welcome to gpaisa.in. By accessing and using this website, you accept and agree to be bound by the terms and conditions of this agreement. If you do not agree to these terms, please do not use this website.
+                                Welcome to thinkscope.in. By accessing and using this website, you accept and agree to be bound by the terms and conditions of this agreement. If you do not agree to these terms, please do not use this website.
                             </p>
                             <p className="text-gray-700">
                                 We reserve the right to modify these terms at any time. Your continued use of the website following any changes indicates your acceptance of the new terms.
@@ -60,7 +60,7 @@ export default function TermsPage() {
 
                             <h3 className="text-xl font-bold text-gray-900 mb-3">3.1 Our Content</h3>
                             <p className="text-gray-700 mb-4">
-                                The content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, data compilations, and software, is the property of gpaisa.in or its content suppliers and is protected by Indian and international copyright laws.
+                                The content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, data compilations, and software, is the property of thinkscope.in or its content suppliers and is protected by Indian and international copyright laws.
                             </p>
 
                             <h3 className="text-xl font-bold text-gray-900 mb-3">3.2 Limited License</h3>
@@ -75,7 +75,7 @@ export default function TermsPage() {
 
                             <h3 className="text-xl font-bold text-gray-900 mb-3">3.3 Trademarks</h3>
                             <p className="text-gray-700">
-                                &quot;gpaisa.in&quot; and related logos are trademarks of gpaisa.in. You may not use these trademarks without our prior written consent.
+                                &quot;thinkscope.in&quot; and related logos are trademarks of thinkscope.in. You may not use these trademarks without our prior written consent.
                             </p>
                         </section>
 
@@ -139,7 +139,7 @@ export default function TermsPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Third-Party Links</h2>
                             <p className="text-gray-700 mb-4">
-                                Our website may contain links to third-party websites or services that are not owned or controlled by gpaisa.in. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites.
+                                Our website may contain links to third-party websites or services that are not owned or controlled by thinkscope.in. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites.
                             </p>
                             <p className="text-gray-700">
                                 You acknowledge and agree that we shall not be liable for any damage or loss caused by your use of any third-party websites or services.
@@ -151,7 +151,7 @@ export default function TermsPage() {
                             <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
                                 <p className="text-gray-800 font-semibold mb-2">LIMITATION OF LIABILITY:</p>
                                 <p className="text-gray-700">
-                                    To the fullest extent permitted by law, gpaisa.in, its owners, employees, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or other intangible losses, resulting from:
+                                    To the fullest extent permitted by law, thinkscope.in, its owners, employees, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or other intangible losses, resulting from:
                                 </p>
                             </div>
 
@@ -168,7 +168,7 @@ export default function TermsPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Indemnification</h2>
                             <p className="text-gray-700">
-                                You agree to indemnify, defend, and hold harmless gpaisa.in and its affiliates from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
+                                You agree to indemnify, defend, and hold harmless thinkscope.in and its affiliates from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
                                 <li>Your use of the website</li>
@@ -213,7 +213,7 @@ export default function TermsPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">14. Entire Agreement</h2>
                             <p className="text-gray-700">
-                                These Terms of Service, together with our Privacy Policy and Disclaimer, constitute the entire agreement between you and gpaisa.in regarding the use of this website.
+                                These Terms of Service, together with our Privacy Policy and Disclaimer, constitute the entire agreement between you and thinkscope.in regarding the use of this website.
                             </p>
                         </section>
 
@@ -223,14 +223,14 @@ export default function TermsPage() {
                                 If you have any questions about these Terms of Service, please contact us:
                             </p>
                             <div className="bg-gray-50 p-4 rounded-lg">
-                                <p className="text-gray-700"><strong>Email:</strong> <a href="mailto:contact@gpaisa.in" className="text-primary-600 hover:underline">contact@gpaisa.in</a></p>
-                                <p className="text-gray-700"><strong>Website:</strong> <a href="https://www.gpaisa.in/contact" className="text-primary-600 hover:underline">https://www.gpaisa.in/contact</a></p>
+                                <p className="text-gray-700"><strong>Email:</strong> <a href="mailto:contact@thinkscope.in" className="text-primary-600 hover:underline">contact@thinkscope.in</a></p>
+                                <p className="text-gray-700"><strong>Website:</strong> <a href="https://www.thinkscope.in/contact" className="text-primary-600 hover:underline">https://www.thinkscope.in/contact</a></p>
                             </div>
                         </section>
 
                         <div className="mt-8 pt-8 border-t border-gray-200">
                             <p className="text-sm text-gray-600">
-                                By using gpaisa.in, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+                                By using thinkscope.in, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
                             </p>
                         </div>
                     </div>

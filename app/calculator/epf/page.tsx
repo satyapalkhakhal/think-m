@@ -59,20 +59,20 @@ function computeEPFDefaults() {
 }
 
 export const metadata: Metadata = {
-    title: 'EPF Calculator India 2026 — EPF Maturity, EPS Pension & Year-wise Growth | gpaisa.in',
+    title: 'EPF Calculator India 2026 — EPF Maturity, EPS Pension & Year-wise Growth | thinkscope.in',
     description: 'Free EPF Calculator India 2026 — Calculate your EPF maturity amount, EPS pension, interest earned and year-wise growth. Updated for 8.25% interest rate.',
 
     authors: [{ name: 'Satyapal Khakhal' }],
 
     openGraph: {
-        title: 'EPF Calculator India 2026 — EPF Maturity, EPS Pension & Year-wise Growth | gpaisa.in',
+        title: 'EPF Calculator India 2026 — EPF Maturity, EPS Pension & Year-wise Growth | thinkscope.in',
         description: 'Free EPF Calculator India 2026 — Calculate your EPF maturity amount, EPS pension, interest earned and year-wise growth. Updated for 8.25% interest rate.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/epf',
-        siteName: 'Gpaisa',
+        url: 'https://www.thinkscope.in/calculator/epf',
+        siteName: 'thinkscope',
         images: [
             {
-                url: 'https://www.gpaisa.in/og-epf-calculator.jpg',
+                url: 'https://www.thinkscope.in/og-epf-calculator.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'EPF Calculator India 2026',
@@ -82,14 +82,14 @@ export const metadata: Metadata = {
 
     twitter: {
         card: 'summary_large_image',
-        title: 'EPF Calculator India (2026) — EPF Maturity & Pension Calculator | gpaisa.in',
+        title: 'EPF Calculator India (2026) — EPF Maturity & Pension Calculator | thinkscope.in',
         description: 'Calculate EPF maturity amount, EPS pension and year-wise growth. Updated for 8.25% p.a. interest rate.',
-        creator: '@gpaisa_in',
-        images: ['https://www.gpaisa.in/og-epf-calculator.jpg'],
+        creator: '@thinkscope_in',
+        images: ['https://www.thinkscope.in/og-epf-calculator.jpg'],
     },
 
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/epf',
+        canonical: 'https://www.thinkscope.in/calculator/epf',
     },
 
     robots: {
@@ -113,8 +113,8 @@ export default function EPFCalculatorPage() {
         '@graph': [
             {
                 '@type': 'WebPage',
-                '@id': 'https://www.gpaisa.in/calculator/epf#webpage',
-                url: 'https://www.gpaisa.in/calculator/epf',
+                '@id': 'https://www.thinkscope.in/calculator/epf#webpage',
+                url: 'https://www.thinkscope.in/calculator/epf',
                 name: 'EPF Calculator India 2026 — EPF Maturity, EPS Pension & Year-wise Growth',
                 description: 'Free EPF Calculator India 2026. Updated for 8.25% interest rate.',
                 author: {
@@ -124,11 +124,11 @@ export default function EPFCalculatorPage() {
             },
             {
                 '@type': 'BreadcrumbList',
-                '@id': 'https://www.gpaisa.in/calculator/epf#breadcrumb',
+                '@id': 'https://www.thinkscope.in/calculator/epf#breadcrumb',
                 itemListElement: [
-                    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-                    { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-                    { '@type': 'ListItem', position: 3, name: 'EPF Calculator', item: 'https://www.gpaisa.in/calculator/epf' },
+                    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+                    { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+                    { '@type': 'ListItem', position: 3, name: 'EPF Calculator', item: 'https://www.thinkscope.in/calculator/epf' },
                 ],
             },
             {
@@ -144,7 +144,7 @@ export default function EPFCalculatorPage() {
             },
             {
                 '@type': 'FAQPage',
-                '@id': 'https://www.gpaisa.in/calculator/epf#faq',
+                '@id': 'https://www.thinkscope.in/calculator/epf#faq',
                 mainEntity: [
                     {
                         '@type': 'Question',

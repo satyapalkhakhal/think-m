@@ -10,25 +10,25 @@ function computeSIDefaults() {
 }
 
 export const metadata: Metadata = {
-  title: 'Simple Interest Calculator 2026 — Formula, Examples, Reverse Calculator | gpaisa.in',
+  title: 'Simple Interest Calculator 2026 — Formula, Examples, Reverse Calculator | thinkscope.in',
   description: 'Free Simple Interest Calculator India (2026). Formula SI=(P×R×T)/100 with 3 worked examples, reverse calculator to find P/R/T, SI vs CI comparison table, and interest rate reference chart.',
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'Simple Interest Calculator 2026 — SI Formula, Examples & Reverse Calculator | gpaisa.in',
+    title: 'Simple Interest Calculator 2026 — SI Formula, Examples & Reverse Calculator | thinkscope.in',
     description: 'Calculate simple interest instantly. SI = (P×R×T)/100 with worked examples, reverse calculator (find P, R or T), SI vs CI comparison, and reference rate table.',
     type: 'article',
-    url: 'https://www.gpaisa.in/calculator/simple-interest',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/simple-interest',
+    siteName: 'thinkscope.in',
     images: [{ url: '/og-simple-interest-calculator.jpg', width: 1200, height: 630, alt: 'Simple Interest Calculator 2026 — SI Formula & Reverse Calculator' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Simple Interest Calculator 2026 — SI Formula, Examples & Reverse Calculator | gpaisa.in',
+    title: 'Simple Interest Calculator 2026 — SI Formula, Examples & Reverse Calculator | thinkscope.in',
     description: 'Calculate simple interest instantly. SI = (P×R×T)/100 with worked examples, reverse calculator (find P, R or T), SI vs CI comparison, and reference rate table. Free online tool.',
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
     images: ['/og-simple-interest-calculator.jpg'],
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/simple-interest' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/simple-interest' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -40,27 +40,27 @@ export default function SimpleInterestCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/simple-interest#webpage',
-        url: 'https://www.gpaisa.in/calculator/simple-interest',
-        name: 'Simple Interest Calculator 2026 — Formula, Examples, Reverse Calculator | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/simple-interest#webpage',
+        url: 'https://www.thinkscope.in/calculator/simple-interest',
+        name: 'Simple Interest Calculator 2026 — Formula, Examples, Reverse Calculator | thinkscope.in',
         description: 'Free SI calculator with reverse calculator (find P, R or T), SI vs CI comparison, and interest rate reference table.',
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/simple-interest#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/simple-interest#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/simple-interest#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/simple-interest#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'Simple Interest Calculator', item: 'https://www.gpaisa.in/calculator/simple-interest' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'Simple Interest Calculator', item: 'https://www.thinkscope.in/calculator/simple-interest' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'Simple Interest Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/simple-interest',
+        url: 'https://www.thinkscope.in/calculator/simple-interest',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -80,7 +80,7 @@ export default function SimpleInterestCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/simple-interest#faq',
+        '@id': 'https://www.thinkscope.in/calculator/simple-interest#faq',
         mainEntity: [
           { '@type': 'Question', name: 'What is the simple interest formula in maths?', acceptedAnswer: { '@type': 'Answer', text: 'SI = (P × R × T) / 100, where P is the principal, R is the annual interest rate in %, and T is time in years. Total amount: A = P + SI. Example: ₹1,00,000 at 8% for 3 years → SI = ₹24,000, total = ₹1,24,000.' } },
           { '@type': 'Question', name: 'What is the difference between simple and compound interest?', acceptedAnswer: { '@type': 'Answer', text: 'Simple interest is calculated only on the original principal — same every year. Compound interest is calculated on principal plus accumulated interest — grows faster over time. For ₹1 lakh at 8% for 3 years: SI gives ₹24,000 while CI gives ₹25,971 — a difference of ₹1,971.' } },

@@ -4,17 +4,17 @@ import SIPEducationalContent from '@/components/sip/SIPEducationalContent';
 
 // Comprehensive SEO metadata targeting high-volume keywords
 export const metadata: Metadata = {
-    title: 'SIP Calculator Online - Calculate SIP Returns & Investment Growth | Gpaisa',
+    title: 'SIP Calculator Online - Calculate SIP Returns & Investment Growth | thinkscope',
     description: 'Free SIP Calculator to calculate mutual fund SIP returns. Plan your systematic investment with our step-up SIP calculator, lump sum calculator, and SIP return calculator. Get accurate projections for your wealth creation journey.',
 
     authors: [{ name: 'Satyapal Khakhal' }],
 
     openGraph: {
-        title: 'SIP Calculator - Calculate Your Mutual Fund Returns | Gpaisa',
+        title: 'SIP Calculator - Calculate Your Mutual Fund Returns | thinkscope',
         description: 'Plan your investments with our advanced SIP Calculator. Calculate returns, set financial goals, and visualize your wealth growth with step-up SIP options.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/sip',
-        siteName: 'Gpaisa',
+        url: 'https://www.thinkscope.in/calculator/sip',
+        siteName: 'thinkscope',
         images: [
             {
                 url: '/og-sip-calculator.jpg',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     },
 
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/sip',
+        canonical: 'https://www.thinkscope.in/calculator/sip',
     },
 
     robots: {
@@ -61,45 +61,45 @@ export default function SIPCalculatorPage() {
             // WebPage Schema
             {
                 '@type': 'WebPage',
-                '@id': 'https://www.gpaisa.in/calculator/sip#webpage',
-                url: 'https://www.gpaisa.in/calculator/sip',
+                '@id': 'https://www.thinkscope.in/calculator/sip#webpage',
+                url: 'https://www.thinkscope.in/calculator/sip',
                 name: 'SIP Calculator - Calculate Mutual Fund SIP Returns Online',
                 description: 'Free online SIP calculator to calculate systematic investment plan returns. Plan your mutual fund investments with step-up SIP, lump sum, and goal-based calculators.',
                 isPartOf: {
-                    '@id': 'https://www.gpaisa.in/#website',
+                    '@id': 'https://www.thinkscope.in/#website',
                 },
                 breadcrumb: {
-                    '@id': 'https://www.gpaisa.in/calculator/sip#breadcrumb',
+                    '@id': 'https://www.thinkscope.in/calculator/sip#breadcrumb',
                 },
                 inLanguage: 'en-IN',
                 potentialAction: {
                     '@type': 'UseAction',
-                    target: 'https://www.gpaisa.in/calculator/sip',
+                    target: 'https://www.thinkscope.in/calculator/sip',
                 },
             },
 
             // BreadcrumbList Schema
             {
                 '@type': 'BreadcrumbList',
-                '@id': 'https://www.gpaisa.in/calculator/sip#breadcrumb',
+                '@id': 'https://www.thinkscope.in/calculator/sip#breadcrumb',
                 itemListElement: [
                     {
                         '@type': 'ListItem',
                         position: 1,
                         name: 'Home',
-                        item: 'https://www.gpaisa.in',
+                        item: 'https://www.thinkscope.in',
                     },
                     {
                         '@type': 'ListItem',
                         position: 2,
                         name: 'Calculator',
-                        item: 'https://www.gpaisa.in/calculator',
+                        item: 'https://www.thinkscope.in/calculator',
                     },
                     {
                         '@type': 'ListItem',
                         position: 3,
                         name: 'SIP Calculator',
-                        item: 'https://www.gpaisa.in/calculator/sip',
+                        item: 'https://www.thinkscope.in/calculator/sip',
                     },
                 ],
             },
@@ -126,7 +126,7 @@ export default function SIPCalculatorPage() {
             // FAQPage Schema
             {
                 '@type': 'FAQPage',
-                '@id': 'https://www.gpaisa.in/calculator/sip#faq',
+                '@id': 'https://www.thinkscope.in/calculator/sip#faq',
                 mainEntity: [
                     {
                         '@type': 'Question',

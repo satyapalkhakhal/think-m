@@ -9,7 +9,7 @@ import { fetchGoldRatesAllCarats } from '@/lib/angelOneApi';
 import { Coins, History } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Live Gold & Silver Rates, Commodity Prices Today | gpaisa.in',
+    title: 'Live Gold & Silver Rates, Commodity Prices Today | thinkscope.in',
     description: 'Check today\'s gold rates (24K, 22K, 18K) and silver prices across India. Updated in real-time.',
     openGraph: {
         title: 'Live Gold & Silver Rates, Commodity Prices Today',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         type: 'website',
     },
     alternates: {
-        canonical: 'https://www.gpaisa.in/commodities'
+        canonical: 'https://www.thinkscope.in/commodities'
     }
 };
 
@@ -31,7 +31,7 @@ export default async function CommoditiesPage() {
         "@type": "WebPage",
         "name": "Gold & Commodity Rates",
         "description": "Live gold rates (24K, 22K, 18K), silver prices, and commodity rates across India",
-        "url": "https://www.gpaisa.in/commodities",
+        "url": "https://www.thinkscope.in/commodities",
         "mainEntity": {
             "@type": "ItemList",
             "name": "Gold Rates in India",

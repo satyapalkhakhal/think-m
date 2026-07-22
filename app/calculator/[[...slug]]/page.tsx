@@ -47,23 +47,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Calculator Hub page (no slug)
     if (!slug || slug.length === 0) {
         return {
-            title: 'Financial Calculators India — SIP, FD, EMI, Home Loan, GST & More | gpaisa.in',
-            description: 'Free online financial calculators for India. SIP calculator, FD calculator, EMI calculator, home loan calculator, GST calculator, PPF, NPS, CAGR and more. Plan your investments with gpaisa.in.',
+            title: 'Financial Calculators India — SIP, FD, EMI, Home Loan, GST & More | thinkscope.in',
+            description: 'Free online financial calculators for India. SIP calculator, FD calculator, EMI calculator, home loan calculator, GST calculator, PPF, NPS, CAGR and more. Plan your investments with thinkscope.in.',
             authors: [{ name: 'Satyapal Khakhal' }],
             openGraph: {
                 title: 'Financial Calculators India — SIP, FD, EMI, Home Loan, GST & More',
                 description: '19 free financial calculators for Indian investors. SIP, FD, EMI, home loan, GST, PPF, NPS, CAGR and more.',
                 type: 'website',
-                url: 'https://www.gpaisa.in/calculator',
+                url: 'https://www.thinkscope.in/calculator',
             },
             twitter: {
                 card: 'summary_large_image',
-                title: 'Financial Calculators India | gpaisa.in',
+                title: 'Financial Calculators India | thinkscope.in',
                 description: '19 free financial calculators — SIP, FD, EMI, Home Loan, GST & more.',
-                creator: '@gpaisa_in',
+                creator: '@thinkscope_in',
             },
             alternates: {
-                canonical: 'https://www.gpaisa.in/calculator',
+                canonical: 'https://www.thinkscope.in/calculator',
             },
         };
     }
@@ -82,16 +82,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                     title: amcData.metaTitle,
                     description: amcData.metaDescription,
                     type: 'website',
-                    url: `https://www.gpaisa.in/calculator/${slug[0]}`,
+                    url: `https://www.thinkscope.in/calculator/${slug[0]}`,
                 },
                 twitter: {
                     card: 'summary_large_image',
-                    title: `${amcData.shortName} SIP Calculator 2026 — Top Funds, Returns & Investment Guide | gpaisa.in`,
+                    title: `${amcData.shortName} SIP Calculator 2026 — Top Funds, Returns & Investment Guide | thinkscope.in`,
                     description: amcData.metaDescription,
-                    creator: '@gpaisa_in',
+                    creator: '@thinkscope_in',
                 },
                 alternates: {
-                    canonical: `https://www.gpaisa.in/calculator/${slug[0]}`,
+                    canonical: `https://www.thinkscope.in/calculator/${slug[0]}`,
                 },
             };
         }
@@ -99,23 +99,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         // Fallback for banks not in sipAmcData
         if (bank) {
             return {
-                title: `${bank.name} SIP Calculator 2026 — Top Funds, Returns & Investment Guide | gpaisa.in`,
+                title: `${bank.name} SIP Calculator 2026 — Top Funds, Returns & Investment Guide | thinkscope.in`,
                 description: bank.description,
                 authors: [{ name: 'Satyapal Khakhal' }],
                 openGraph: {
                     title: `${bank.name} SIP Calculator`,
                     description: bank.description,
                     type: 'website',
-                    url: `https://www.gpaisa.in/calculator/${slug[0]}`,
+                    url: `https://www.thinkscope.in/calculator/${slug[0]}`,
                 },
                 twitter: {
                     card: 'summary_large_image',
-                    title: `${bank.name} SIP Calculator 2026 — Top Funds, Returns & Investment Guide | gpaisa.in`,
+                    title: `${bank.name} SIP Calculator 2026 — Top Funds, Returns & Investment Guide | thinkscope.in`,
                     description: bank.description,
-                    creator: '@gpaisa_in',
+                    creator: '@thinkscope_in',
                 },
                 alternates: {
-                    canonical: `https://www.gpaisa.in/calculator/${slug[0]}`,
+                    canonical: `https://www.thinkscope.in/calculator/${slug[0]}`,
                 },
             };
         }
@@ -128,7 +128,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         const bankData = getBankHomeLoanDataBySlug(slug[0]);
 
         if (bank) {
-            const metaTitle = bankData?.metaTitle || `${bank.name} Home Loan Calculator - Calculate ${bank.name} Home Loan EMI | Gpaisa`;
+            const metaTitle = bankData?.metaTitle || `${bank.name} Home Loan Calculator - Calculate ${bank.name} Home Loan EMI | thinkscope`;
             const metaDescription = bankData?.metaDescription || bank.description;
 
             return {
@@ -139,7 +139,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                     title: metaTitle,
                     description: metaDescription,
                     type: 'website',
-                    url: `https://www.gpaisa.in/calculator/${slug[0]}`,
+                    url: `https://www.thinkscope.in/calculator/${slug[0]}`,
                 },
                 twitter: {
                     card: 'summary_large_image',
@@ -147,7 +147,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                     description: metaDescription,
                 },
                 alternates: {
-                    canonical: `https://www.gpaisa.in/calculator/${slug[0]}`,
+                    canonical: `https://www.thinkscope.in/calculator/${slug[0]}`,
                 },
             };
         }
@@ -162,11 +162,11 @@ function CalculatorHub() {
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
-        '@id': 'https://www.gpaisa.in/calculator/#webpage',
-        'url': 'https://www.gpaisa.in/calculator',
-        'name': 'Financial Calculators India — SIP, FD, EMI, Home Loan, GST & More | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/#webpage',
+        'url': 'https://www.thinkscope.in/calculator',
+        'name': 'Financial Calculators India — SIP, FD, EMI, Home Loan, GST & More | thinkscope.in',
         'description': 'Free online financial calculators for India. Plan your investments with SIP, FD, EMI, home loan, GST, PPF, NPS, CAGR calculators and more.',
-        'isPartOf': { '@id': 'https://www.gpaisa.in/#website' },
+        'isPartOf': { '@id': 'https://www.thinkscope.in/#website' },
         'author': {
             '@type': 'Person',
             'name': 'Satyapal Khakhal',
@@ -231,7 +231,7 @@ function CalculatorHub() {
 
                     {/* Trust Section */}
                     <div className="mt-12 bg-white rounded-xl border border-gray-200 p-6 sm:p-8">
-                        <h2 className="text-lg font-bold text-gray-900 mb-3">Why Use gpaisa.in Calculators?</h2>
+                        <h2 className="text-lg font-bold text-gray-900 mb-3">Why Use thinkscope.in Calculators?</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-gray-600">
                             <div className="flex items-start gap-2">
                                 <span className="text-green-500 font-bold mt-0.5">✓</span>

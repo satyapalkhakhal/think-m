@@ -7,23 +7,23 @@ import HomeLoanEducational from '@/components/home-loan/HomeLoanEducational';
 import { computeDefaults } from '@/lib/homeLoanCalculations';
 
 export const metadata: Metadata = {
-    title: 'Home Loan EMI Calculator 2026 — Amortization Schedule, Prepayment & Interest | GPaisa',
-    description: 'Calculate your home loan EMI instantly with amortization schedule, interest breakdown, prepayment simulator, payoff timeline, and downloadable report on GPaisa. India\'s most complete home loan calculator.',
+    title: 'Home Loan EMI Calculator 2026 — Amortization Schedule, Prepayment & Interest | thinkscope',
+    description: 'Calculate your home loan EMI instantly with amortization schedule, interest breakdown, prepayment simulator, payoff timeline, and downloadable report on thinkscope. India\'s most complete home loan calculator.',
     authors: [{ name: 'Satyapal Khakhal' }],
     openGraph: {
-        title: 'Home Loan EMI Calculator — Amortization, Prepayment & Report | GPaisa',
+        title: 'Home Loan EMI Calculator — Amortization, Prepayment & Report | thinkscope',
         description: 'Calculate your home loan EMI with detailed amortization schedule, prepayment analysis, interest breakdown, and downloadable report.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/home-loan',
+        url: 'https://www.thinkscope.in/calculator/home-loan',
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Home Loan EMI Calculator 2026 — Amortization & Prepayment | gpaisa.in',
+        title: 'Home Loan EMI Calculator 2026 — Amortization & Prepayment | thinkscope.in',
         description: 'Calculate your home loan EMI with amortization schedule, prepayment analysis, interest breakdown, and downloadable report. Compare rates across SBI, HDFC, ICICI & more.',
-        creator: '@gpaisa_in',
+        creator: '@thinkscope_in',
     },
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/home-loan',
+        canonical: 'https://www.thinkscope.in/calculator/home-loan',
     },
 };
 
@@ -127,9 +127,9 @@ export default function HomeLoanCalculatorPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-            { '@type': 'ListItem', position: 3, name: 'Home Loan Calculator', item: 'https://www.gpaisa.in/calculator/home-loan' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+            { '@type': 'ListItem', position: 3, name: 'Home Loan Calculator', item: 'https://www.thinkscope.in/calculator/home-loan' },
         ],
     };
 

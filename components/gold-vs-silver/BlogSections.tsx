@@ -78,7 +78,7 @@ export function InternalLinks() {
     ];
     return (
         <div className="bg-gradient-to-br from-primary-50 to-gold-50 rounded-2xl border border-primary-200/50 p-6">
-            <h3 className="text-lg font-display font-bold text-gray-900 mb-4">📌 Related Pages on gpaisa.in</h3>
+            <h3 className="text-lg font-display font-bold text-gray-900 mb-4">📌 Related Pages on thinkscope.in</h3>
             <ul className="space-y-2">
                 {links.map((l, i) => (
                     <li key={i}>

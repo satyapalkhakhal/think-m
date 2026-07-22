@@ -16,25 +16,25 @@ function computeHRADefaults() {
 }
 
 export const metadata: Metadata = {
-  title: 'HRA Calculator 2026 — HRA Exemption, Metro vs Non-Metro & Tax Savings | gpaisa.in',
+  title: 'HRA Calculator 2026 — HRA Exemption, Metro vs Non-Metro & Tax Savings | thinkscope.in',
   description: 'Free HRA calculator India (2026). Calculate House Rent Allowance tax exemption under Section 10(13A). Metro vs non-metro, Form 12BB guide, Section 80GG for self-employed. Instant results.',
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'HRA Calculator 2026 — House Rent Allowance Tax Exemption India | gpaisa.in',
+    title: 'HRA Calculator 2026 — House Rent Allowance Tax Exemption India | thinkscope.in',
     description: 'Calculate HRA exemption instantly. Three-component formula, metro vs non-metro, old vs new tax regime comparison. Worked example included.',
     type: 'article',
-    url: 'https://www.gpaisa.in/calculator/hra',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/hra',
+    siteName: 'thinkscope.in',
     images: [{ url: '/og-hra-calculator.jpg', width: 1200, height: 630, alt: 'HRA Calculator India 2026 — HRA Exemption & Tax Savings' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'HRA Calculator 2026 — House Rent Allowance Tax Exemption India | gpaisa.in',
+    title: 'HRA Calculator 2026 — House Rent Allowance Tax Exemption India | thinkscope.in',
     description: 'Calculate HRA exemption instantly. Three-component formula, metro vs non-metro, old vs new tax regime comparison. Worked example included. Free HRA calculator India 2026.',
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
     images: ['/og-hra-calculator.jpg'],
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/hra' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/hra' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -46,27 +46,27 @@ export default function HRACalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/hra#webpage',
-        url: 'https://www.gpaisa.in/calculator/hra',
-        name: 'HRA Calculator 2026 — HRA Exemption, Metro vs Non-Metro & Tax Savings | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/hra#webpage',
+        url: 'https://www.thinkscope.in/calculator/hra',
+        name: 'HRA Calculator 2026 — HRA Exemption, Metro vs Non-Metro & Tax Savings | thinkscope.in',
         description: 'Free HRA calculator India (2026). Calculate House Rent Allowance tax exemption under Section 10(13A). Metro vs non-metro, Form 12BB, Section 80GG.',
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/hra#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/hra#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/hra#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/hra#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'HRA Calculator', item: 'https://www.gpaisa.in/calculator/hra' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'HRA Calculator', item: 'https://www.thinkscope.in/calculator/hra' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'HRA Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/hra',
+        url: 'https://www.thinkscope.in/calculator/hra',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -86,7 +86,7 @@ export default function HRACalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/hra#faq',
+        '@id': 'https://www.thinkscope.in/calculator/hra#faq',
         mainEntity: [
           { '@type': 'Question', name: 'What is the HRA exemption limit in India for 2026?', acceptedAnswer: { '@type': 'Answer', text: 'There is no fixed rupee limit — it depends on your salary. The exempt amount is the minimum of: actual HRA received, rent paid minus 10% of Basic+DA, and 50% of Basic+DA for metro cities (40% for non-metro).' } },
           { '@type': 'Question', name: 'Is HRA available under the new tax regime?', acceptedAnswer: { '@type': 'Answer', text: 'No. HRA exemption under Section 10(13A) is only available under the old tax regime. Under the new tax regime, your entire HRA component becomes part of taxable salary.' } },

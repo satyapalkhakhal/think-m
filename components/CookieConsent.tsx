@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-const CONSENT_KEY = 'gpaisa_cookie_consent';
+const CONSENT_KEY = 'thinkscope_cookie_consent';
 
 type ConsentStatus = 'accepted' | 'rejected' | null;
 

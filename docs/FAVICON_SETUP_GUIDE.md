@@ -50,16 +50,16 @@ Your site now has:
 ### Step 1: Submit Your Sitemap to Google Search Console
 
 1. **Go to Google Search Console**: https://search.google.com/search-console
-2. **Add your property** (if not already added): `https://gpaisa.in`
+2. **Add your property** (if not already added): `https://thinkscope.in`
 3. **Submit your sitemap**: 
    - Go to "Sitemaps" in the left menu
-   - Enter: `https://gpaisa.in/sitemap.xml`
+   - Enter: `https://thinkscope.in/sitemap.xml`
    - Click "Submit"
 
 ### Step 2: Request Indexing for Your Homepage
 
 1. In Google Search Console, use the **URL Inspection Tool**
-2. Enter: `https://gpaisa.in`
+2. Enter: `https://thinkscope.in`
 3. Click **"Request Indexing"**
 4. Wait for Google to crawl your site
 
@@ -67,12 +67,12 @@ Your site now has:
 
 Test these URLs in your browser (they should all work):
 ```
-https://gpaisa.in/favicon.ico
-https://gpaisa.in/favicon-16x16.png
-https://gpaisa.in/favicon-32x32.png
-https://gpaisa.in/android-chrome-192x192.png
-https://gpaisa.in/android-chrome-512x512.png
-https://gpaisa.in/manifest.json
+https://thinkscope.in/favicon.ico
+https://thinkscope.in/favicon-16x16.png
+https://thinkscope.in/favicon-32x32.png
+https://thinkscope.in/android-chrome-192x192.png
+https://thinkscope.in/android-chrome-512x512.png
+https://thinkscope.in/manifest.json
 ```
 
 ### Step 4: Check robots.txt
@@ -86,7 +86,7 @@ Allow: /android-chrome-*.png
 Allow: /apple-touch-icon.png
 Allow: /manifest.json
 
-Sitemap: https://gpaisa.in/sitemap.xml
+Sitemap: https://thinkscope.in/sitemap.xml
 ```
 
 ---
@@ -114,13 +114,13 @@ Sitemap: https://gpaisa.in/sitemap.xml
 3. Look for any favicon-related errors
 
 ### Method 2: Direct Google Search
-Search for: `site:gpaisa.in`
+Search for: `site:thinkscope.in`
 - If indexed, you should see your pages
 - Favicon may take additional time to appear
 
 ### Method 3: Rich Results Test
 1. Go to: https://search.google.com/test/rich-results
-2. Enter: `https://gpaisa.in`
+2. Enter: `https://thinkscope.in`
 3. Check if favicon is detected
 
 ---
@@ -288,7 +288,7 @@ convert android-chrome-192x192.png -define icon:auto-resize=64,48,32,16 favicon.
 If your favicon still doesn't appear after 2 weeks:
 
 1. **Check Google Search Console** for errors
-2. **Verify your site is indexed**: Search `site:gpaisa.in`
+2. **Verify your site is indexed**: Search `site:thinkscope.in`
 3. **Test favicon accessibility**: Try accessing favicon URLs directly
 4. **Contact Google Support**: Through Search Console
 

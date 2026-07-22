@@ -20,7 +20,7 @@ export default function robots(): MetadataRoute.Robots {
             },
         ],
         sitemap: [
-            'https://www.gpaisa.in/sitemap.xml',
+            'https://www.thinkscope.in/sitemap.xml',
         ],
     };
 }

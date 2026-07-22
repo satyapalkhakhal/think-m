@@ -186,7 +186,7 @@ export default function IncomeTaxContent() {
       {/* ─── 6. Author byline + Related Calculators ─── */}
       <section className="border-t border-gray-100 pt-8">
         <p className="text-sm text-gray-500 mb-6">
-          Content by <strong className="text-gray-700">Satyapal Khakhal</strong>, Founder, gpaisa.in | Updated for FY 2026-27: July 2026
+          Content by <strong className="text-gray-700">Satyapal Khakhal</strong>, Founder, thinkscope.in | Updated for FY 2026-27: July 2026
         </p>
         <div>
           <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Related Calculators</p>

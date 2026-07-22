@@ -2,17 +2,17 @@ import { Metadata } from 'next';
 import GratuityCalculatorClient from '@/components/GratuityCalculatorClient';
 
 export const metadata: Metadata = {
-    title: 'Gratuity Calculator - Calculate Gratuity Amount Online | Gpaisa',
+    title: 'Gratuity Calculator - Calculate Gratuity Amount Online | thinkscope',
     description: 'Free gratuity calculator to calculate gratuity amount as per Payment of Gratuity Act, 1972. Find out your gratuity on retirement or resignation. Tax-free up to ₹20 lakhs.',
     authors: [{ name: 'Satyapal Khakhal' }],
     openGraph: {
-        title: 'Gratuity Calculator - Calculate Your Gratuity Amount | Gpaisa',
+        title: 'Gratuity Calculator - Calculate Your Gratuity Amount | thinkscope',
         description: 'Calculate your gratuity amount instantly. Free gratuity calculator as per Indian law.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/gratuity',
+        url: 'https://www.thinkscope.in/calculator/gratuity',
     },
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/gratuity',
+        canonical: 'https://www.thinkscope.in/calculator/gratuity',
     },
 };
 
@@ -49,7 +49,7 @@ export default function GratuityCalculatorPage() {
             },
             {
                 '@type': 'FAQPage',
-                '@id': 'https://www.gpaisa.in/calculator/gratuity#faq',
+                '@id': 'https://www.thinkscope.in/calculator/gratuity#faq',
                 mainEntity: [
                     { '@type': 'Question', name: 'What is the gratuity formula?', acceptedAnswer: { '@type': 'Answer', text: 'Gratuity = (Last Salary × 15 × Years of Service) / 26 for employees covered under the Payment of Gratuity Act. For non-covered employees, the divisor is 30.' } },
                     { '@type': 'Question', name: 'Is gratuity taxable in India?', acceptedAnswer: { '@type': 'Answer', text: "Gratuity up to ₹20 lakh is completely tax-free. Any amount exceeding ₹20 lakh is taxable as per the individual's income tax slab." } },

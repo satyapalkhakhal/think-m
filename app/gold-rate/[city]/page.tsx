@@ -33,7 +33,7 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
     const cityData = getCityGoldData(citySlug);
 
     if (!cityData) {
-        return { title: 'City Not Found | gpaisa.in' };
+        return { title: 'City Not Found | thinkscope.in' };
     }
 
     const { city: cityName, mainMarkets, tagline, state } = cityData;
@@ -41,7 +41,7 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
 
 
     return {
-        title: `Gold Rate in ${cityName} Today — ${todayDate} | gpaisa.in`,
+        title: `Gold Rate in ${cityName} Today — ${todayDate} | thinkscope.in`,
         description: `Check today's gold rate in ${cityName}, ${state} on ${todayDate}. Live 24K, 22K & 18K gold prices. ${tagline}. Gold markets at ${mainMarkets.join(' & ')}. Calculator, price history, buying tips & expert guide.`,
         robots: {
             index: true,
@@ -52,10 +52,10 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
             title: `Gold Rate in ${cityName} Today - 24K, 22K, 18K Live Prices | ${tagline}`,
             description: `Today's gold rate in ${cityName}, ${state}. ${tagline}. Live prices for 24K, 22K & 18K gold with calculator, history & buying guide.`,
             type: 'article',
-            url: `https://www.gpaisa.in/gold-rate/${citySlug}`,
-            siteName: 'gpaisa.in',
+            url: `https://www.thinkscope.in/gold-rate/${citySlug}`,
+            siteName: 'thinkscope.in',
             locale: 'en_IN',
-            images: [{ url: 'https://www.gpaisa.in/android-chrome-512x512.png', width: 512, height: 512, alt: `Gold Rate in ${cityName} Today` }],
+            images: [{ url: 'https://www.thinkscope.in/android-chrome-512x512.png', width: 512, height: 512, alt: `Gold Rate in ${cityName} Today` }],
         },
         twitter: {
             card: 'summary_large_image',
@@ -63,7 +63,7 @@ export async function generateMetadata(props: { params: Promise<{ city: string }
             description: `Today's gold rate in ${cityName} for 24K, 22K & 18K. ${tagline}. Live prices with buying tips.`,
         },
         alternates: {
-            canonical: `https://www.gpaisa.in/gold-rate/${citySlug}`,
+            canonical: `https://www.thinkscope.in/gold-rate/${citySlug}`,
         },
     };
 }
@@ -91,14 +91,14 @@ export default async function CityGoldRatePage(props: { params: Promise<{ city: 
         "@type": "WebPage",
         name: `Gold Rate in ${cityName} Today`,
         description: `Current gold rates for ${cityName}, ${state} including 24K, 22K, and 18K gold prices. ${tagline}.`,
-        url: `https://www.gpaisa.in/gold-rate/${citySlug}`,
+        url: `https://www.thinkscope.in/gold-rate/${citySlug}`,
         inLanguage: 'en-IN',
-        isPartOf: { "@type": "WebSite", name: "gpaisa.in", url: "https://www.gpaisa.in" },
+        isPartOf: { "@type": "WebSite", name: "thinkscope.in", url: "https://www.thinkscope.in" },
         publisher: {
             "@type": "Organization",
-            name: "gpaisa.in",
-            url: "https://www.gpaisa.in",
-            logo: { "@type": "ImageObject", url: "https://www.gpaisa.in/android-chrome-512x512.png" },
+            name: "thinkscope.in",
+            url: "https://www.thinkscope.in",
+            logo: { "@type": "ImageObject", url: "https://www.thinkscope.in/android-chrome-512x512.png" },
         },
         dateModified: new Date().toISOString(),
         about: {
@@ -116,9 +116,9 @@ export default async function CityGoldRatePage(props: { params: Promise<{ city: 
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.gpaisa.in" },
-            { "@type": "ListItem", position: 2, name: "Gold Rates", item: "https://www.gpaisa.in/gold-rate" },
-            { "@type": "ListItem", position: 3, name: cityName, item: `https://www.gpaisa.in/gold-rate/${citySlug}` },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.thinkscope.in" },
+            { "@type": "ListItem", position: 2, name: "Gold Rates", item: "https://www.thinkscope.in/gold-rate" },
+            { "@type": "ListItem", position: 3, name: cityName, item: `https://www.thinkscope.in/gold-rate/${citySlug}` },
         ],
     };
 
@@ -137,15 +137,15 @@ export default async function CityGoldRatePage(props: { params: Promise<{ city: 
         "@type": "Article",
         headline: `Gold Rate in ${cityName} Today — ${tagline}`,
         description: heroDescription,
-        author: { "@type": "Organization", name: "gpaisa.in", url: "https://www.gpaisa.in" },
+        author: { "@type": "Organization", name: "thinkscope.in", url: "https://www.thinkscope.in" },
         publisher: {
             "@type": "Organization",
-            name: "gpaisa.in",
-            logo: { "@type": "ImageObject", url: "https://www.gpaisa.in/android-chrome-512x512.png" },
+            name: "thinkscope.in",
+            logo: { "@type": "ImageObject", url: "https://www.thinkscope.in/android-chrome-512x512.png" },
         },
         datePublished: "2026-04-20",
         dateModified: new Date().toISOString(),
-        mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.gpaisa.in/gold-rate/${citySlug}` },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.thinkscope.in/gold-rate/${citySlug}` },
         inLanguage: "en-IN",
     };
 
@@ -465,7 +465,7 @@ export default async function CityGoldRatePage(props: { params: Promise<{ city: 
                     <footer className="text-center">
                         <LastUpdatedTime />
                         <p className="text-xs text-gray-400 mt-2">
-                            Written by the gpaisa.in editorial team · {cityName} gold market expert guide
+                            Written by the thinkscope.in editorial team · {cityName} gold market expert guide
                         </p>
                     </footer>
                 </div>

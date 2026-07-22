@@ -3,17 +3,17 @@ import PPFCalculatorClient from '@/components/PPFCalculatorClient';
 
 // Comprehensive SEO metadata targeting high-volume keywords
 export const metadata: Metadata = {
-    title: 'PPF Calculator Online - Calculate Public Provident Fund Returns & Maturity | Gpaisa',
+    title: 'PPF Calculator Online - Calculate Public Provident Fund Returns & Maturity | thinkscope',
     description: 'Free PPF Calculator to calculate Public Provident Fund returns, maturity amount, and interest. Plan your PPF investment with our online PPF calculator. Get accurate projections for your wealth creation journey.',
 
     authors: [{ name: 'Satyapal Khakhal' }],
 
     openGraph: {
-        title: 'PPF Calculator - Calculate Public Provident Fund Returns | Gpaisa',
+        title: 'PPF Calculator - Calculate Public Provident Fund Returns | thinkscope',
         description: 'Plan your PPF investments with our advanced calculator. Calculate maturity amount, interest, and visualize your wealth growth over 15 years.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/ppf',
-        siteName: 'Gpaisa',
+        url: 'https://www.thinkscope.in/calculator/ppf',
+        siteName: 'thinkscope',
         images: [
             {
                 url: '/og-ppf-calculator.jpg',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     },
 
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/ppf',
+        canonical: 'https://www.thinkscope.in/calculator/ppf',
     },
 
     robots: {
@@ -60,45 +60,45 @@ export default function PPFCalculatorPage() {
             // WebPage Schema
             {
                 '@type': 'WebPage',
-                '@id': 'https://www.gpaisa.in/calculator/ppf#webpage',
-                url: 'https://www.gpaisa.in/calculator/ppf',
+                '@id': 'https://www.thinkscope.in/calculator/ppf#webpage',
+                url: 'https://www.thinkscope.in/calculator/ppf',
                 name: 'PPF Calculator - Calculate Public Provident Fund Returns Online',
                 description: 'Free online PPF calculator to calculate Public Provident Fund returns, maturity amount, and interest. Plan your PPF investments with accurate projections.',
                 isPartOf: {
-                    '@id': 'https://www.gpaisa.in/#website',
+                    '@id': 'https://www.thinkscope.in/#website',
                 },
                 breadcrumb: {
-                    '@id': 'https://www.gpaisa.in/calculator/ppf#breadcrumb',
+                    '@id': 'https://www.thinkscope.in/calculator/ppf#breadcrumb',
                 },
                 inLanguage: 'en-IN',
                 potentialAction: {
                     '@type': 'UseAction',
-                    target: 'https://www.gpaisa.in/calculator/ppf',
+                    target: 'https://www.thinkscope.in/calculator/ppf',
                 },
             },
 
             // BreadcrumbList Schema
             {
                 '@type': 'BreadcrumbList',
-                '@id': 'https://www.gpaisa.in/calculator/ppf#breadcrumb',
+                '@id': 'https://www.thinkscope.in/calculator/ppf#breadcrumb',
                 itemListElement: [
                     {
                         '@type': 'ListItem',
                         position: 1,
                         name: 'Home',
-                        item: 'https://www.gpaisa.in',
+                        item: 'https://www.thinkscope.in',
                     },
                     {
                         '@type': 'ListItem',
                         position: 2,
                         name: 'Calculator',
-                        item: 'https://www.gpaisa.in/calculator',
+                        item: 'https://www.thinkscope.in/calculator',
                     },
                     {
                         '@type': 'ListItem',
                         position: 3,
                         name: 'PPF Calculator',
-                        item: 'https://www.gpaisa.in/calculator/ppf',
+                        item: 'https://www.thinkscope.in/calculator/ppf',
                     },
                 ],
             },
@@ -125,7 +125,7 @@ export default function PPFCalculatorPage() {
             // FAQPage Schema
             {
                 '@type': 'FAQPage',
-                '@id': 'https://www.gpaisa.in/calculator/ppf#faq',
+                '@id': 'https://www.thinkscope.in/calculator/ppf#faq',
                 mainEntity: [
                     {
                         '@type': 'Question',

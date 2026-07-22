@@ -16,31 +16,31 @@ import { fetchMarketIndices } from '@/lib/indicesApi';
 import { fetchSilverRateData } from '@/lib/angelOneApi';
 
 export const metadata: Metadata = {
-    title: "gpaisa.in — Live Gold Rates, Financial Calculators & Market Data India",
+    title: "thinkscope.in — Live Gold Rates, Financial Calculators & Market Data India",
     description: "India's trusted financial portal. Live 24K gold rate today, silver price, SIP calculator, FD calculator, home loan calculator, GST calculator, credit card reviews. Updated daily by Satyapal Khakhal.",
-    authors: [{ name: "Satyapal Khakhal", url: "https://www.gpaisa.in/about" }],
-    alternates: { canonical: "https://www.gpaisa.in" },
+    authors: [{ name: "Satyapal Khakhal", url: "https://www.thinkscope.in/about" }],
+    alternates: { canonical: "https://www.thinkscope.in" },
     openGraph: {
-        title: "gpaisa.in — Live Gold Rates, Financial Calculators & Market Data India",
+        title: "thinkscope.in — Live Gold Rates, Financial Calculators & Market Data India",
         description: "Live 24K gold rates, silver prices, SIP/FD/home loan calculators, GST tool, credit card reviews and financial news. India's trusted financial portal.",
-        url: "https://www.gpaisa.in",
-        siteName: "gpaisa.in",
+        url: "https://www.thinkscope.in",
+        siteName: "thinkscope.in",
         locale: "en_IN",
         type: "website",
         images: [{
-            url: "https://www.gpaisa.in/og-homepage.jpg",
+            url: "https://www.thinkscope.in/og-homepage.jpg",
             width: 1200,
             height: 630,
-            alt: "gpaisa.in — India's Financial Portal for Gold Rates, Calculators & Market Data"
+            alt: "thinkscope.in — India's Financial Portal for Gold Rates, Calculators & Market Data"
         }]
     },
     twitter: {
         card: "summary_large_image",
-        title: "gpaisa.in — Live Gold Rates, SIP & FD Calculators, Market Data India",
+        title: "thinkscope.in — Live Gold Rates, SIP & FD Calculators, Market Data India",
         description: "Live gold & silver rates, SIP/FD/home loan calculators, credit card reviews. Updated daily.",
-        images: ["https://www.gpaisa.in/og-homepage.jpg"],
-        creator: "@gpaisa_in",
-        site: "@gpaisa_in"
+        images: ["https://www.thinkscope.in/og-homepage.jpg"],
+        creator: "@thinkscope_in",
+        site: "@thinkscope_in"
     },
     robots: {
         index: true,
@@ -180,60 +180,60 @@ export default async function HomePage() {
         '@graph': [
         {
             '@type': 'WebSite',
-            '@id': 'https://www.gpaisa.in/#website',
-            'url': 'https://www.gpaisa.in',
-            'name': 'gpaisa.in',
+            '@id': 'https://www.thinkscope.in/#website',
+            'url': 'https://www.thinkscope.in',
+            'name': 'thinkscope.in',
             'description': "India's trusted financial portal for live gold rates, silver prices, financial calculators, and market data.",
             'inLanguage': 'en-IN',
             'publisher': {
                 '@type': 'Organization',
-                '@id': 'https://www.gpaisa.in/#organization',
-                'name': 'gpaisa.in',
-                'url': 'https://www.gpaisa.in',
-                'logo': { '@type': 'ImageObject', 'url': 'https://www.gpaisa.in/android-chrome-512x512.png', 'width': 512, 'height': 512 },
-                'founder': { '@type': 'Person', 'name': 'Satyapal Khakhal', 'url': 'https://www.gpaisa.in/about' },
-                'contactPoint': { '@type': 'ContactPoint', 'email': 'contact@gpaisa.in', 'contactType': 'customer support' },
-                'sameAs': ['https://twitter.com/gpaisa_in']
+                '@id': 'https://www.thinkscope.in/#organization',
+                'name': 'thinkscope.in',
+                'url': 'https://www.thinkscope.in',
+                'logo': { '@type': 'ImageObject', 'url': 'https://www.thinkscope.in/android-chrome-512x512.png', 'width': 512, 'height': 512 },
+                'founder': { '@type': 'Person', 'name': 'Satyapal Khakhal', 'url': 'https://www.thinkscope.in/about' },
+                'contactPoint': { '@type': 'ContactPoint', 'email': 'contact@thinkscope.in', 'contactType': 'customer support' },
+                'sameAs': ['https://twitter.com/thinkscope_in']
             },
             'potentialAction': {
                 '@type': 'SearchAction',
-                'target': { '@type': 'EntryPoint', 'urlTemplate': 'https://www.gpaisa.in/search?q={search_term_string}' },
+                'target': { '@type': 'EntryPoint', 'urlTemplate': 'https://www.thinkscope.in/search?q={search_term_string}' },
                 'query-input': 'required name=search_term_string'
             }
         },
         {
             '@type': 'WebPage',
-            '@id': 'https://www.gpaisa.in/#webpage',
-            'url': 'https://www.gpaisa.in',
-            'name': "gpaisa.in — Live Gold Rates, Financial Calculators & Market Data India",
+            '@id': 'https://www.thinkscope.in/#webpage',
+            'url': 'https://www.thinkscope.in',
+            'name': "thinkscope.in — Live Gold Rates, Financial Calculators & Market Data India",
             'description': "India's trusted financial portal for live gold rates, silver prices, SIP/FD/home loan calculators, and market news.",
-            'isPartOf': { '@id': 'https://www.gpaisa.in/#website' },
-            'about': { '@id': 'https://www.gpaisa.in/#organization' },
-            'author': { '@type': 'Person', 'name': 'Satyapal Khakhal', 'url': 'https://www.gpaisa.in/about' },
+            'isPartOf': { '@id': 'https://www.thinkscope.in/#website' },
+            'about': { '@id': 'https://www.thinkscope.in/#organization' },
+            'author': { '@type': 'Person', 'name': 'Satyapal Khakhal', 'url': 'https://www.thinkscope.in/about' },
             'inLanguage': 'en-IN',
             'dateModified': new Date().toISOString().split('T')[0]
         },
         {
             '@type': 'ItemList',
-            'name': 'Financial Calculators — gpaisa.in',
+            'name': 'Financial Calculators — thinkscope.in',
             'description': 'Free financial calculators for Indian investors',
             'numberOfItems': 15,
             'itemListElement': [
-                { '@type': 'ListItem', 'position': 1, 'name': 'SIP Calculator', 'url': 'https://www.gpaisa.in/calculator/sip' },
-                { '@type': 'ListItem', 'position': 2, 'name': 'FD Calculator', 'url': 'https://www.gpaisa.in/calculator/fd' },
-                { '@type': 'ListItem', 'position': 3, 'name': 'Home Loan Calculator', 'url': 'https://www.gpaisa.in/calculator/home-loan' },
-                { '@type': 'ListItem', 'position': 4, 'name': 'GST Calculator', 'url': 'https://www.gpaisa.in/calculator/gst' },
-                { '@type': 'ListItem', 'position': 5, 'name': 'SWP Calculator', 'url': 'https://www.gpaisa.in/calculator/swp' },
-                { '@type': 'ListItem', 'position': 6, 'name': 'PPF Calculator', 'url': 'https://www.gpaisa.in/calculator/ppf' },
-                { '@type': 'ListItem', 'position': 7, 'name': 'EPF Calculator', 'url': 'https://www.gpaisa.in/calculator/epf' },
-                { '@type': 'ListItem', 'position': 8, 'name': 'CAGR Calculator', 'url': 'https://www.gpaisa.in/calculator/cagr' },
-                { '@type': 'ListItem', 'position': 9, 'name': 'NPS Calculator', 'url': 'https://www.gpaisa.in/calculator/nps' },
-                { '@type': 'ListItem', 'position': 10, 'name': 'HRA Calculator', 'url': 'https://www.gpaisa.in/calculator/hra' },
-                { '@type': 'ListItem', 'position': 11, 'name': 'Gratuity Calculator', 'url': 'https://www.gpaisa.in/calculator/gratuity' },
-                { '@type': 'ListItem', 'position': 12, 'name': 'EMI Calculator', 'url': 'https://www.gpaisa.in/calculator/emi' },
-                { '@type': 'ListItem', 'position': 13, 'name': 'Mutual Fund Calculator', 'url': 'https://www.gpaisa.in/calculator/mutual-fund' },
-                { '@type': 'ListItem', 'position': 14, 'name': 'Simple Interest Calculator', 'url': 'https://www.gpaisa.in/calculator/simple-interest' },
-                { '@type': 'ListItem', 'position': 15, 'name': 'Car Loan Calculator', 'url': 'https://www.gpaisa.in/calculator/car-loan' },
+                { '@type': 'ListItem', 'position': 1, 'name': 'SIP Calculator', 'url': 'https://www.thinkscope.in/calculator/sip' },
+                { '@type': 'ListItem', 'position': 2, 'name': 'FD Calculator', 'url': 'https://www.thinkscope.in/calculator/fd' },
+                { '@type': 'ListItem', 'position': 3, 'name': 'Home Loan Calculator', 'url': 'https://www.thinkscope.in/calculator/home-loan' },
+                { '@type': 'ListItem', 'position': 4, 'name': 'GST Calculator', 'url': 'https://www.thinkscope.in/calculator/gst' },
+                { '@type': 'ListItem', 'position': 5, 'name': 'SWP Calculator', 'url': 'https://www.thinkscope.in/calculator/swp' },
+                { '@type': 'ListItem', 'position': 6, 'name': 'PPF Calculator', 'url': 'https://www.thinkscope.in/calculator/ppf' },
+                { '@type': 'ListItem', 'position': 7, 'name': 'EPF Calculator', 'url': 'https://www.thinkscope.in/calculator/epf' },
+                { '@type': 'ListItem', 'position': 8, 'name': 'CAGR Calculator', 'url': 'https://www.thinkscope.in/calculator/cagr' },
+                { '@type': 'ListItem', 'position': 9, 'name': 'NPS Calculator', 'url': 'https://www.thinkscope.in/calculator/nps' },
+                { '@type': 'ListItem', 'position': 10, 'name': 'HRA Calculator', 'url': 'https://www.thinkscope.in/calculator/hra' },
+                { '@type': 'ListItem', 'position': 11, 'name': 'Gratuity Calculator', 'url': 'https://www.thinkscope.in/calculator/gratuity' },
+                { '@type': 'ListItem', 'position': 12, 'name': 'EMI Calculator', 'url': 'https://www.thinkscope.in/calculator/emi' },
+                { '@type': 'ListItem', 'position': 13, 'name': 'Mutual Fund Calculator', 'url': 'https://www.thinkscope.in/calculator/mutual-fund' },
+                { '@type': 'ListItem', 'position': 14, 'name': 'Simple Interest Calculator', 'url': 'https://www.thinkscope.in/calculator/simple-interest' },
+                { '@type': 'ListItem', 'position': 15, 'name': 'Car Loan Calculator', 'url': 'https://www.thinkscope.in/calculator/car-loan' },
             ]
         }
         ]
@@ -464,7 +464,7 @@ export default async function HomePage() {
                                 <div className="flex items-center gap-3 mb-2">
                                     <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white font-bold text-sm shrink-0">SK</div>
                                     <div>
-                                        <h3 className="text-xs font-bold text-emerald-800 uppercase tracking-wide">About gpaisa.in</h3>
+                                        <h3 className="text-xs font-bold text-emerald-800 uppercase tracking-wide">About thinkscope.in</h3>
                                         <p className="text-[10px] text-emerald-600">By Satyapal Khakhal</p>
                                     </div>
                                 </div>
@@ -504,7 +504,7 @@ export default async function HomePage() {
             <div className="bg-amber-50 border-t border-amber-100 py-3 px-4">
                 <div className="max-w-7xl mx-auto">
                     <p className="text-[11px] text-amber-700 text-center leading-relaxed">
-                        <strong>Regulatory Notice:</strong> gpaisa.in is not registered with SEBI. All content is for informational and educational purposes only. Please consult a SEBI-registered investment advisor before making any financial or investment decisions.
+                        <strong>Regulatory Notice:</strong> thinkscope.in is not registered with SEBI. All content is for informational and educational purposes only. Please consult a SEBI-registered investment advisor before making any financial or investment decisions.
                         <Link href="/disclaimer" className="underline ml-1">Full Disclaimer →</Link>
                     </p>
                 </div>

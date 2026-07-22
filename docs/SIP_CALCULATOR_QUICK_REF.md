@@ -2,7 +2,7 @@
 
 ## 🚀 Quick Links
 - **Live Page**: http://localhost:3000/sip-calculator
-- **Production URL**: https://gpaisa.in/sip-calculator
+- **Production URL**: https://thinkscope.in/sip-calculator
 - **Documentation**: /docs/SIP_CALCULATOR_SEO.md
 
 ## 📊 SEO Performance Targets
@@ -72,15 +72,15 @@
 ```bash
 # 1. Submit to Google Search Console
 # Go to: https://search.google.com/search-console
-# Submit URL: https://gpaisa.in/sip-calculator
+# Submit URL: https://thinkscope.in/sip-calculator
 
 # 2. Request indexing
 # In Search Console > URL Inspection
-# Enter: https://gpaisa.in/sip-calculator
+# Enter: https://thinkscope.in/sip-calculator
 # Click: "Request Indexing"
 
 # 3. Check sitemap
-# Verify at: https://gpaisa.in/sitemap.xml
+# Verify at: https://thinkscope.in/sitemap.xml
 # Should include /sip-calculator with priority 0.9
 ```
 
@@ -263,25 +263,25 @@ ls -la components/SIPCalculatorClient.tsx
 ### SEO Issues
 ```bash
 # Verify metadata
-curl -I https://gpaisa.in/sip-calculator
+curl -I https://thinkscope.in/sip-calculator
 
 # Check structured data
 # Use: https://search.google.com/test/rich-results
 
 # Verify sitemap
-curl https://gpaisa.in/sitemap.xml | grep sip-calculator
+curl https://thinkscope.in/sitemap.xml | grep sip-calculator
 ```
 
 ## 📞 Support
 
 ### Technical Issues
 - Check: /docs/SIP_CALCULATOR_SEO.md
-- Email: dev@gpaisa.in
+- Email: dev@thinkscope.in
 
 ### SEO Questions
 - Review: Google Search Console
 - Check: Analytics dashboard
-- Email: seo@gpaisa.in
+- Email: seo@thinkscope.in
 
 ## 🎯 Next Steps
 

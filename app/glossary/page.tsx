@@ -4,10 +4,10 @@ import { BookOpen } from 'lucide-react';
 import { GLOSSARY_TERMS, getGlossaryTermsByCategory } from '@/lib/glossaryData';
 
 export const metadata: Metadata = {
-    title: 'Financial Glossary — Investing, Tax & Savings Terms Explained | gpaisa.in',
+    title: 'Financial Glossary — Investing, Tax & Savings Terms Explained | thinkscope.in',
     description: 'Clear, jargon-free definitions of Indian financial terms — CAGR, SIP, XIRR, PPF, HRA, GST, and more. Every term links to a calculator so you can act on it immediately.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/glossary',
+        canonical: 'https://www.thinkscope.in/glossary',
     },
     robots: {
         index: true,
@@ -25,13 +25,13 @@ export default function GlossaryIndexPage() {
     const definedTermSetSchema = {
         '@context': 'https://schema.org',
         '@type': 'DefinedTermSet',
-        name: 'gpaisa.in Financial Glossary',
+        name: 'thinkscope.in Financial Glossary',
         description: 'Definitions of Indian personal finance, investing, and tax terms.',
-        url: 'https://www.gpaisa.in/glossary',
+        url: 'https://www.thinkscope.in/glossary',
         hasDefinedTerm: GLOSSARY_TERMS.map((t) => ({
             '@type': 'DefinedTerm',
             name: t.term,
-            url: `https://www.gpaisa.in/glossary/${t.slug}`,
+            url: `https://www.thinkscope.in/glossary/${t.slug}`,
             description: t.shortDefinition,
         })),
     };
@@ -40,8 +40,8 @@ export default function GlossaryIndexPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'Glossary', item: 'https://www.gpaisa.in/glossary' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'Glossary', item: 'https://www.thinkscope.in/glossary' },
         ],
     };
 

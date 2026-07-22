@@ -1,7 +1,7 @@
-# SEO Meta Description Best Practices for gpaisa.in
+# SEO Meta Description Best Practices for thinkscope.in
 
 ## Overview
-This document explains the SEO optimization strategy implemented for gpaisa.in, specifically for gold rate and silver rate pages, following Google's 2026 best practices.
+This document explains the SEO optimization strategy implemented for thinkscope.in, specifically for gold rate and silver rate pages, following Google's 2026 best practices.
 
 ## Key Changes Implemented
 
@@ -45,7 +45,7 @@ This document explains the SEO optimization strategy implemented for gpaisa.in, 
 Keywords are now properly placed in:
 
 1. **Page Title** (`<title>` tag)
-   - Example: `Gold Rate in Delhi Today - 24K, 22K, 18K Live Prices | gpaisa.in`
+   - Example: `Gold Rate in Delhi Today - 24K, 22K, 18K Live Prices | thinkscope.in`
 
 2. **H1 and H2 Headings**
    - Example: `<h1>Gold Rate in Delhi Today</h1>`
@@ -122,7 +122,7 @@ To maximize Google Discover eligibility, we ensure:
 ### Gold Rate - Delhi
 ```typescript
 {
-  title: 'Gold Rate in Delhi Today - 24K, 22K, 18K Live Prices | gpaisa.in',
+  title: 'Gold Rate in Delhi Today - 24K, 22K, 18K Live Prices | thinkscope.in',
   description: "Check today's gold rate in Delhi for 24K, 22K and 18K. Live gold and silver prices with daily updates and charts.",
   openGraph: {
     title: 'Gold Rate in Delhi Today - 24K, 22K, 18K Live Prices',
@@ -139,7 +139,7 @@ To maximize Google Discover eligibility, we ensure:
 ### Silver Rate - Mumbai
 ```typescript
 {
-  title: 'Silver Rate in Mumbai Today - Live Price Per Gram/Kg | gpaisa.in',
+  title: 'Silver Rate in Mumbai Today - Live Price Per Gram/Kg | thinkscope.in',
   description: "Today's silver price in Mumbai with live rate updates, historical trends and daily market movements.",
   openGraph: {
     title: 'Silver Rate in Mumbai Today - Live Prices Per Gram/Kg',
@@ -165,7 +165,7 @@ Example:
   "@type": "WebPage",
   "name": "Gold Rate in Delhi",
   "description": "Current gold rates for Delhi including 24K, 22K, and 18K gold prices",
-  "url": "https://gpaisa.in/gold-rate/delhi"
+  "url": "https://thinkscope.in/gold-rate/delhi"
 }
 ```
 

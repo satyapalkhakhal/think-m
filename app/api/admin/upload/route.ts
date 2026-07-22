@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
         }
 
         const timestamp = Math.floor(Date.now() / 1000);
-        const folder = 'gpaisa-articles';
+        const folder = 'thinkscope-articles';
         const toSign = `folder=${folder}&timestamp=${timestamp}`;
         const signature = crypto.createHash('sha1').update(toSign + API_SECRET).digest('hex');
 

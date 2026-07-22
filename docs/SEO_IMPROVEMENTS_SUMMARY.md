@@ -1,4 +1,4 @@
-# SEO Improvements Summary - gpaisa.in
+# SEO Improvements Summary - thinkscope.in
 
 ## Date: January 5, 2026
 
@@ -37,14 +37,14 @@ Added two schemas:
 ### Example Output:
 ```typescript
 {
-  title: "Gold prices surge 2% amid global uncertainty | gpaisa.in",
+  title: "Gold prices surge 2% amid global uncertainty | thinkscope.in",
   description: "Gold prices move today amid global cues. Check latest city-wise rates...",
   keywords: "financial news, India finance, gold, market news, investment news",
   openGraph: {
     type: 'article',
     publishedTime: '2026-01-05T00:00:00Z',
     modifiedTime: '2026-01-05T12:00:00Z',
-    authors: ['Gpaisa Desk'],
+    authors: ['thinkscope Desk'],
     images: [{ url: '...', width: 1200, height: 630 }]
   }
 }

@@ -5,10 +5,10 @@
       "has": [
         {
           "type": "host",
-          "value": "gpaisa.in"
+          "value": "thinkscope.in"
         }
       ],
-      "destination": "https://www.gpaisa.in/$1",
+      "destination": "https://www.thinkscope.in/$1",
       "permanent": true
     }
   ]

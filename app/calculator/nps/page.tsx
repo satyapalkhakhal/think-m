@@ -23,25 +23,25 @@ function computeNPSDefaults() {
 }
 
 export const metadata: Metadata = {
-  title: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Savings | gpaisa.in',
+  title: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Savings | thinkscope.in',
   description: "India's most complete NPS calculator (2026). Calculate retirement corpus, monthly pension, tax benefits under 80CCD, and year-wise growth. Updated for latest PFRDA 2025 rules — 80% lump sum, ₹5L threshold, age 85 extension.",
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Benefits | gpaisa.in',
+    title: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Benefits | thinkscope.in',
     description: "Calculate NPS retirement corpus, monthly pension, and tax savings. Updated for 2025 PFRDA rules — 80% lump sum, ₹5L threshold, age 85 extension.",
     type: 'article',
-    url: 'https://www.gpaisa.in/calculator/nps',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/nps',
+    siteName: 'thinkscope.in',
     images: [{ url: '/og-nps-calculator.jpg', width: 1200, height: 630, alt: 'NPS Calculator India 2026 — Retirement Corpus & Monthly Pension' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Benefits | gpaisa.in',
+    title: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Benefits | thinkscope.in',
     description: 'Calculate NPS retirement corpus, monthly pension, and tax savings. Updated for 2025 PFRDA rules — 80% lump sum, ₹5L threshold, age 85 extension. Free NPS calculator India.',
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
     images: ['/og-nps-calculator.jpg'],
   },
-  alternates: { canonical: 'https://www.gpaisa.in/calculator/nps' },
+  alternates: { canonical: 'https://www.thinkscope.in/calculator/nps' },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } },
 };
 
@@ -53,28 +53,28 @@ export default function NPSCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/nps#webpage',
-        url: 'https://www.gpaisa.in/calculator/nps',
-        name: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Savings | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/nps#webpage',
+        url: 'https://www.thinkscope.in/calculator/nps',
+        name: 'NPS Calculator 2026 — Retirement Corpus, Monthly Pension & Tax Savings | thinkscope.in',
         description: "India's most complete NPS calculator. Calculate retirement corpus, monthly pension, and tax benefits under 80CCD. Updated for PFRDA 2025 rules.",
-        isPartOf: { '@id': 'https://www.gpaisa.in/#website' },
+        isPartOf: { '@id': 'https://www.thinkscope.in/#website' },
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/nps#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/nps#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/nps#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/nps#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'NPS Calculator', item: 'https://www.gpaisa.in/calculator/nps' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'NPS Calculator', item: 'https://www.thinkscope.in/calculator/nps' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'NPS Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/nps',
+        url: 'https://www.thinkscope.in/calculator/nps',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -102,7 +102,7 @@ export default function NPSCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/nps#faq',
+        '@id': 'https://www.thinkscope.in/calculator/nps#faq',
         mainEntity: [
           { '@type': 'Question', name: 'What is the NPS interest rate in India in 2026?', acceptedAnswer: { '@type': 'Answer', text: 'NPS does not have a fixed interest rate — returns are market-linked. Historically, equity-heavy NPS portfolios (Scheme E) have delivered 10–13% CAGR over 10-year periods. Conservative portfolios (Scheme G) typically return 7–9%.' } },
           { '@type': 'Question', name: 'What is the minimum NPS contribution per month?', acceptedAnswer: { '@type': 'Answer', text: 'Minimum contribution for Tier 1 NPS is ₹1,000 per year. If paying monthly, minimum is ₹500/month. No maximum limit, but tax benefits are capped at ₹2 lakh per year under 80CCD(1) + 80CCD(1B).' } },

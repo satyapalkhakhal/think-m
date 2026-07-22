@@ -230,7 +230,7 @@ export default function SIContent() {
             ))}
           </div>
         </div>
-        <p className="text-sm text-gray-400">Content by <strong className="text-gray-600">Satyapal Khakhal</strong>, Founder, gpaisa.in | Updated: May 2026</p>
+        <p className="text-sm text-gray-400">Content by <strong className="text-gray-600">Satyapal Khakhal</strong>, Founder, thinkscope.in | Updated: May 2026</p>
       </section>
     </div>
   );

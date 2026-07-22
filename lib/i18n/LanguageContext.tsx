@@ -17,7 +17,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         // Read saved language from localStorage
-        const saved = localStorage.getItem('gpaisa-lang') as Language;
+        const saved = localStorage.getItem('thinkscope-lang') as Language;
         if (saved && (saved === 'en' || saved === 'hi')) {
             setLanguageState(saved);
         }
@@ -26,7 +26,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
     const setLanguage = useCallback((lang: Language) => {
         setLanguageState(lang);
-        localStorage.setItem('gpaisa-lang', lang);
+        localStorage.setItem('thinkscope-lang', lang);
         // Update the html lang attribute
         document.documentElement.lang = lang;
     }, []);

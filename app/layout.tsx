@@ -5,8 +5,8 @@ import { LanguageProvider } from "@/lib/i18n";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://www.gpaisa.in'),
-    title: "Gpaisa - Live Market Updates, Gold Rates & Financial News",
+    metadataBase: new URL('https://www.thinkscope.in'),
+    title: "thinkscope - Live Market Updates, Gold Rates & Financial News",
     description: "Track live stock markets (Sensex, Nifty), today's gold & silver rates, breaking financial news, commodity prices, and smart investment calculators (SIP, PPF, EPF, SWP). Your trusted Indian finance companion!",
     authors: [{ name: "Satyapal Khakhal" }],
     manifest: "/manifest.json",
@@ -29,28 +29,28 @@ export const metadata: Metadata = {
         ],
     },
     openGraph: {
-        title: "Gpaisa - Your Trusted Financial Portal",
+        title: "thinkscope - Your Trusted Financial Portal",
         description: "Real-time market updates, gold rates, and financial news for India",
         type: "website",
         locale: "en_IN",
-        url: "https://www.gpaisa.in",
-        siteName: "gpaisa.in",
+        url: "https://www.thinkscope.in",
+        siteName: "thinkscope.in",
         images: [
             {
-                url: 'https://www.gpaisa.in/android-chrome-512x512.png',
+                url: 'https://www.thinkscope.in/android-chrome-512x512.png',
                 width: 512,
                 height: 512,
-                alt: 'gpaisa.in logo',
+                alt: 'thinkscope.in logo',
             },
         ],
     },
     twitter: {
         card: 'summary',
-        title: 'gpaisa.in - Live Market Updates',
+        title: 'thinkscope.in - Live Market Updates',
         description: 'Real-time stock market updates, gold rates, and financial news for India',
-        images: ['https://www.gpaisa.in/android-chrome-512x512.png'],
-        creator: '@gpaisa_in',
-        site: '@gpaisa_in',
+        images: ['https://www.thinkscope.in/android-chrome-512x512.png'],
+        creator: '@thinkscope_in',
+        site: '@thinkscope_in',
     },
 };
 

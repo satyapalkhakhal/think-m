@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Admin | gpaisa.in',
+    title: 'Admin | thinkscope.in',
     robots: { index: false, follow: false },
 };
 

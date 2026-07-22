@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import GoldVsSilverBlogClient from '@/components/GoldVsSilverBlogClient';
 
 export const metadata: Metadata = {
-    title: 'Gold vs Silver: 10-Year Price Chart, Returns & Which Is Better Investment in India? | gpaisa.in',
+    title: 'Gold vs Silver: 10-Year Price Chart, Returns & Which Is Better Investment in India? | thinkscope.in',
     description: 'Compare gold vs silver investment in India with 10-year price charts, returns analysis, risk comparison & expert insights. Find out which precious metal is the better investment for you.',
     openGraph: {
         title: 'Gold vs Silver: 10-Year Price Chart, Returns & Which Is Better Investment in India?',
         description: 'Comprehensive comparison of gold vs silver as investment in India. 10-year charts, returns analysis, volatility & expert recommendations.',
         type: 'article',
-        url: 'https://www.gpaisa.in/gold-vs-silver',
-        siteName: 'gpaisa.in',
+        url: 'https://www.thinkscope.in/gold-vs-silver',
+        siteName: 'thinkscope.in',
         locale: 'en_IN',
         images: [
             {
-                url: 'https://www.gpaisa.in/android-chrome-512x512.png',
+                url: 'https://www.thinkscope.in/android-chrome-512x512.png',
                 width: 512,
                 height: 512,
                 alt: 'Gold vs Silver Investment Comparison India',
@@ -24,10 +24,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Gold vs Silver: Which Is Better Investment in India? (10-Year Analysis)',
         description: 'Compare gold and silver returns, price charts, and find the best precious metal investment for your portfolio.',
-        images: ['https://www.gpaisa.in/android-chrome-512x512.png'],
+        images: ['https://www.thinkscope.in/android-chrome-512x512.png'],
     },
     alternates: {
-        canonical: 'https://www.gpaisa.in/gold-vs-silver',
+        canonical: 'https://www.thinkscope.in/gold-vs-silver',
     },
     robots: {
         index: true,
@@ -44,25 +44,25 @@ export default function GoldVsSilverPage() {
         '@type': 'Article',
         headline: 'Gold vs Silver: 10-Year Price Chart, Returns & Which Is Better Investment in India?',
         description: 'Comprehensive comparison of gold vs silver investment in India with 10-year price charts, returns analysis, and expert advice.',
-        image: 'https://www.gpaisa.in/android-chrome-512x512.png',
+        image: 'https://www.thinkscope.in/android-chrome-512x512.png',
         author: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
-            url: 'https://www.gpaisa.in',
+            name: 'thinkscope.in',
+            url: 'https://www.thinkscope.in',
         },
         publisher: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
+            name: 'thinkscope.in',
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://www.gpaisa.in/android-chrome-512x512.png',
+                url: 'https://www.thinkscope.in/android-chrome-512x512.png',
             },
         },
         datePublished: '2026-04-16',
         dateModified: '2026-04-16',
         mainEntityOfPage: {
             '@type': 'WebPage',
-            '@id': 'https://www.gpaisa.in/gold-vs-silver',
+            '@id': 'https://www.thinkscope.in/gold-vs-silver',
         },
         inLanguage: 'en-IN',
     };
@@ -71,9 +71,9 @@ export default function GoldVsSilverPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'Gold Rate', item: 'https://www.gpaisa.in/gold-rate' },
-            { '@type': 'ListItem', position: 3, name: 'Gold vs Silver', item: 'https://www.gpaisa.in/gold-vs-silver' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'Gold Rate', item: 'https://www.thinkscope.in/gold-rate' },
+            { '@type': 'ListItem', position: 3, name: 'Gold vs Silver', item: 'https://www.thinkscope.in/gold-vs-silver' },
         ],
     };
 

@@ -48,9 +48,9 @@ export async function middleware(request: NextRequest) {
     // ── Non-www → www 301 redirect ──
     // Ensures all traffic uses the canonical www domain for SEO consistency.
     // Exclude /ads.txt so AdSense can verify it on the naked domain.
-    if ((host === 'gpaisa.in' || host === 'gpaisa.in:443') && pathname !== '/ads.txt') {
+    if ((host === 'thinkscope.in' || host === 'thinkscope.in:443') && pathname !== '/ads.txt') {
         const url = request.nextUrl.clone();
-        url.host = 'www.gpaisa.in';
+        url.host = 'www.thinkscope.in';
         url.port = '';
         return NextResponse.redirect(url, { status: 301 });
     }

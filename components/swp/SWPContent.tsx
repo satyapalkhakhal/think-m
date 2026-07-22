@@ -242,7 +242,7 @@ export default function SWPContent({ first5Years }: { first5Years?: YearRow[] })
       {/* ── Author + Related Links ── */}
       <div className="bg-gray-50 rounded-2xl border border-gray-200 px-4 md:px-6 py-4 space-y-3">
         <div className="flex items-center justify-between text-xs text-gray-500">
-          <span>Content by <strong className="text-gray-700">Satyapal Khakhal</strong>, Founder, gpaisa.in | Updated: May 2026</span>
+          <span>Content by <strong className="text-gray-700">Satyapal Khakhal</strong>, Founder, thinkscope.in | Updated: May 2026</span>
         </div>
         <div className="border-t border-gray-200 pt-3">
           <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Related Calculators</p>

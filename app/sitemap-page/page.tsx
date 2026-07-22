@@ -9,8 +9,8 @@ const CITIES = [
 ];
 
 export const metadata = {
-    title: 'Sitemap - All Pages | gpaisa.in',
-    description: 'Browse all pages on gpaisa.in including gold rates, silver rates, news articles, and financial information.',
+    title: 'Sitemap - All Pages | thinkscope.in',
+    description: 'Browse all pages on thinkscope.in including gold rates, silver rates, news articles, and financial information.',
     robots: {
         index: true,
         follow: true,
@@ -37,7 +37,7 @@ export default async function SitemapPage() {
                         Site Map
                     </h1>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Browse all pages on gpaisa.in. Find gold rates, silver rates, market updates, and financial news.
+                        Browse all pages on thinkscope.in. Find gold rates, silver rates, market updates, and financial news.
                     </p>
                 </header>
 

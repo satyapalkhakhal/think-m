@@ -47,14 +47,14 @@ export async function POST(request: NextRequest) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                from: 'gpaisa.in Contact Form <onboarding@resend.dev>',
-                to: ['contact@gpaisa.in'],
+                from: 'thinkscope.in Contact Form <onboarding@resend.dev>',
+                to: ['contact@thinkscope.in'],
                 reply_to: email,
                 subject: `[Contact Form] ${subject}`,
                 html: `
                     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
                         <div style="background: linear-gradient(135deg, #059669, #047857); padding: 20px 24px; border-radius: 12px 12px 0 0;">
-                            <h1 style="color: white; margin: 0; font-size: 20px;">New Contact Message — gpaisa.in</h1>
+                            <h1 style="color: white; margin: 0; font-size: 20px;">New Contact Message — thinkscope.in</h1>
                         </div>
                         <div style="background: #ffffff; border: 1px solid #e5e7eb; border-top: none; padding: 24px; border-radius: 0 0 12px 12px;">
                             <table style="width: 100%; border-collapse: collapse;">
@@ -82,7 +82,7 @@ export async function POST(request: NextRequest) {
                             <h3 style="color: #374151; margin: 0 0 8px 0; font-size: 14px;">Message</h3>
                             <div style="background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; color: #1f2937; line-height: 1.6; white-space: pre-wrap;">${esc(message)}</div>
                             <p style="margin-top: 16px; font-size: 12px; color: #9ca3af;">
-                                Sent from gpaisa.in contact form at ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
+                                Sent from thinkscope.in contact form at ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
                             </p>
                         </div>
                     </div>

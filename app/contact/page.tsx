@@ -3,16 +3,16 @@ import { Mail, MapPin, Phone } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
-    title: 'Contact Us - gpaisa.in | Get in Touch',
-    description: 'Contact gpaisa.in for inquiries, feedback, or support. We\'re here to help with your financial information needs.',
+    title: 'Contact Us - thinkscope.in | Get in Touch',
+    description: 'Contact thinkscope.in for inquiries, feedback, or support. We\'re here to help with your financial information needs.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/contact',
+        canonical: 'https://www.thinkscope.in/contact',
     },
     openGraph: {
-        title: 'Contact Us - gpaisa.in',
-        description: 'Get in touch with gpaisa.in team for support and inquiries.',
+        title: 'Contact Us - thinkscope.in',
+        description: 'Get in touch with thinkscope.in team for support and inquiries.',
         type: 'website',
-        url: 'https://www.gpaisa.in/contact',
+        url: 'https://www.thinkscope.in/contact',
     },
 };
 
@@ -41,10 +41,10 @@ export default function ContactPage() {
                         <h3 className="text-xl font-bold text-gray-900 mb-2">Email Us</h3>
                         <p className="text-gray-600 mb-3">Send us an email anytime</p>
                         <a
-                            href="mailto:contact@gpaisa.in"
+                            href="mailto:contact@thinkscope.in"
                             className="text-primary-600 hover:text-primary-700 font-semibold"
                         >
-                            contact@gpaisa.in
+                            contact@thinkscope.in
                         </a>
                     </div>
 
@@ -95,7 +95,7 @@ export default function ContactPage() {
                                 Can I use your data for commercial purposes?
                             </h3>
                             <p className="text-gray-700">
-                                Please contact us at contact@gpaisa.in for commercial licensing inquiries. Personal use of data displayed on our website is permitted for informational purposes only.
+                                Please contact us at contact@thinkscope.in for commercial licensing inquiries. Personal use of data displayed on our website is permitted for informational purposes only.
                             </p>
                         </div>
                         <div>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                                 How can I report an error or inaccuracy?
                             </h3>
                             <p className="text-gray-700">
-                                If you notice any errors or inaccuracies in our content or data, please email us immediately at contact@gpaisa.in with details. We take data accuracy seriously and will investigate promptly.
+                                If you notice any errors or inaccuracies in our content or data, please email us immediately at contact@thinkscope.in with details. We take data accuracy seriously and will investigate promptly.
                             </p>
                         </div>
                     </div>

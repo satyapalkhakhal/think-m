@@ -51,16 +51,16 @@ function computeSWPDefaults() {
 
 // Comprehensive SEO metadata targeting high-volume keywords
 export const metadata: Metadata = {
-    title: 'SWP Calculator 2026 — Systematic Withdrawal Plan with Inflation & Tax | gpaisa.in',
+    title: 'SWP Calculator 2026 — Systematic Withdrawal Plan with Inflation & Tax | thinkscope.in',
     description: "India's most complete SWP calculator. Calculate final corpus, safe withdrawal rate, inflation-adjusted returns, and corpus depletion date. Compare SWP vs FD vs Annuity. Free online tool.",
     authors: [{ name: 'Satyapal Khakhal' }],
 
     openGraph: {
-        title: 'SWP Calculator 2026 — Inflation, Safe Withdrawal & Depletion Date | gpaisa.in',
+        title: 'SWP Calculator 2026 — Inflation, Safe Withdrawal & Depletion Date | thinkscope.in',
         description: "India's most complete SWP calculator. Calculate safe withdrawal rate, inflation-adjusted returns, and corpus depletion date. Compare SWP vs FD vs Annuity.",
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/swp',
-        siteName: 'Gpaisa',
+        url: 'https://www.thinkscope.in/calculator/swp',
+        siteName: 'thinkscope',
         images: [
             {
                 url: '/og-swp-calculator.jpg',
@@ -73,13 +73,13 @@ export const metadata: Metadata = {
 
     twitter: {
         card: 'summary_large_image',
-        title: 'SWP Calculator 2026 — Inflation, Safe Withdrawal & Depletion | gpaisa.in',
+        title: 'SWP Calculator 2026 — Inflation, Safe Withdrawal & Depletion | thinkscope.in',
         description: 'Calculate SWP: ₹10L corpus at 12% supports ₹10,000/month for 20+ years. Inflation-adjusted real value, corpus depletion warning, SWP vs FD vs Annuity.',
-        creator: '@gpaisa_in',
+        creator: '@thinkscope_in',
     },
 
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/swp',
+        canonical: 'https://www.thinkscope.in/calculator/swp',
     },
 
     robots: {
@@ -105,19 +105,19 @@ export default function SWPCalculatorPage() {
             // WebPage Schema
             {
                 '@type': 'WebPage',
-                '@id': 'https://www.gpaisa.in/calculator/swp#webpage',
-                url: 'https://www.gpaisa.in/calculator/swp',
-                name: "SWP Calculator 2026 — Systematic Withdrawal Plan with Inflation & Tax | gpaisa.in",
+                '@id': 'https://www.thinkscope.in/calculator/swp#webpage',
+                url: 'https://www.thinkscope.in/calculator/swp',
+                name: "SWP Calculator 2026 — Systematic Withdrawal Plan with Inflation & Tax | thinkscope.in",
                 description: "India's most complete SWP calculator. Calculate final corpus, safe withdrawal rate, inflation-adjusted returns, and corpus depletion date.",
                 isPartOf: {
-                    '@id': 'https://www.gpaisa.in/#website',
+                    '@id': 'https://www.thinkscope.in/#website',
                 },
                 author: {
                     '@type': 'Person',
                     name: 'Satyapal Khakhal',
                 },
                 breadcrumb: {
-                    '@id': 'https://www.gpaisa.in/calculator/swp#breadcrumb',
+                    '@id': 'https://www.thinkscope.in/calculator/swp#breadcrumb',
                 },
                 inLanguage: 'en-IN',
             },
@@ -125,25 +125,25 @@ export default function SWPCalculatorPage() {
             // BreadcrumbList Schema
             {
                 '@type': 'BreadcrumbList',
-                '@id': 'https://www.gpaisa.in/calculator/swp#breadcrumb',
+                '@id': 'https://www.thinkscope.in/calculator/swp#breadcrumb',
                 itemListElement: [
                     {
                         '@type': 'ListItem',
                         position: 1,
                         name: 'Home',
-                        item: 'https://www.gpaisa.in',
+                        item: 'https://www.thinkscope.in',
                     },
                     {
                         '@type': 'ListItem',
                         position: 2,
                         name: 'Calculator',
-                        item: 'https://www.gpaisa.in/calculator',
+                        item: 'https://www.thinkscope.in/calculator',
                     },
                     {
                         '@type': 'ListItem',
                         position: 3,
                         name: 'SWP Calculator',
-                        item: 'https://www.gpaisa.in/calculator/swp',
+                        item: 'https://www.thinkscope.in/calculator/swp',
                     },
                 ],
             },
@@ -165,7 +165,7 @@ export default function SWPCalculatorPage() {
             // FAQPage Schema — exact Q&A as specified
             {
                 '@type': 'FAQPage',
-                '@id': 'https://www.gpaisa.in/calculator/swp#faq',
+                '@id': 'https://www.thinkscope.in/calculator/swp#faq',
                 mainEntity: [
                     {
                         '@type': 'Question',

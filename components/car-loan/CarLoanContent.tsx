@@ -197,7 +197,7 @@ export default function CarLoanContent() {
           </div>
         </div>
         <p className="text-sm text-gray-400">
-          Content by <strong className="text-gray-600">Satyapal Khakhal</strong>, Founder, gpaisa.in | Updated: May 2026
+          Content by <strong className="text-gray-600">Satyapal Khakhal</strong>, Founder, thinkscope.in | Updated: May 2026
         </p>
         <p className="text-xs text-gray-400">
           Rates verified from official bank websites — May 2026 | Next update: June 2026

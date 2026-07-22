@@ -15,21 +15,21 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const term = getGlossaryTermBySlug(slug);
 
     if (!term) {
-        return { title: 'Term Not Found | gpaisa.in' };
+        return { title: 'Term Not Found | thinkscope.in' };
     }
 
     return {
-        title: `What is ${term.term}? Meaning &amp; Definition | gpaisa.in`.replace('&amp;', '&'),
+        title: `What is ${term.term}? Meaning &amp; Definition | thinkscope.in`.replace('&amp;', '&'),
         description: term.shortDefinition,
         alternates: {
-            canonical: `https://www.gpaisa.in/glossary/${term.slug}`,
+            canonical: `https://www.thinkscope.in/glossary/${term.slug}`,
         },
         openGraph: {
             title: `What is ${term.term}?`,
             description: term.shortDefinition,
             type: 'article',
-            url: `https://www.gpaisa.in/glossary/${term.slug}`,
-            siteName: 'gpaisa.in',
+            url: `https://www.thinkscope.in/glossary/${term.slug}`,
+            siteName: 'thinkscope.in',
         },
         robots: {
             index: true,
@@ -56,17 +56,17 @@ export default async function GlossaryTermPage({ params }: { params: Promise<{ s
         name: term.term,
         alternateName: term.abbreviation,
         description: term.shortDefinition,
-        url: `https://www.gpaisa.in/glossary/${term.slug}`,
-        inDefinedTermSet: 'https://www.gpaisa.in/glossary',
+        url: `https://www.thinkscope.in/glossary/${term.slug}`,
+        inDefinedTermSet: 'https://www.thinkscope.in/glossary',
     };
 
     const breadcrumbSchema = {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'Glossary', item: 'https://www.gpaisa.in/glossary' },
-            { '@type': 'ListItem', position: 3, name: term.term, item: `https://www.gpaisa.in/glossary/${term.slug}` },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'Glossary', item: 'https://www.thinkscope.in/glossary' },
+            { '@type': 'ListItem', position: 3, name: term.term, item: `https://www.thinkscope.in/glossary/${term.slug}` },
         ],
     };
 

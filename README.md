@@ -1,4 +1,4 @@
-# gpaisa.in - Financial Information      
+# thinkscope.in - Financial Information      
      
 ## 🎨 Brand Colors 
 
@@ -24,7 +24,7 @@
 ## 📁 Project Structure
 
 ```
-gpaisa/
+thinkscope/
 ├── app/
 │   ├── agriculture/          # Agriculture prices page
 │   ├── articles/[id]/        # Dynamic article pages

@@ -12,10 +12,10 @@ import {
 export const revalidate = 86400; // Cache for 1 day (ISR)
 
 export const metadata: Metadata = {
-    title: 'Latest Financial News & Market Updates | gpaisa.in',
+    title: 'Latest Financial News & Market Updates | thinkscope.in',
     description: 'Stay updated with the latest financial news, market trends, policy changes, and economic developments in India.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/news'
+        canonical: 'https://www.thinkscope.in/news'
     }
 };
 
@@ -59,7 +59,7 @@ const NewsCard = ({ article }: { article: Article }) => (
             </h3>
             <p className="text-xs text-gray-500 line-clamp-2 mb-3">{article.excerpt}</p>
             <div className="flex items-center gap-2 text-[10px] text-gray-400 pt-2 border-t border-gray-100">
-                <span className="font-medium text-gray-500">{article.author || 'Gpaisa Desk'}</span>
+                <span className="font-medium text-gray-500">{article.author || 'thinkscope Desk'}</span>
                 <span>•</span>
                 <span>{article.date || new Date(article.published_at).toLocaleDateString()}</span>
             </div>
@@ -81,8 +81,8 @@ export default async function NewsPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'News', item: 'https://www.gpaisa.in/news' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'News', item: 'https://www.thinkscope.in/news' },
         ],
     };
 

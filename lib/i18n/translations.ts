@@ -40,8 +40,8 @@ export const translations = {
     // ─── Footer ─────────────────────────────────────────────────────
     footer: {
         about: {
-            en: 'gpaisa.in is founded by Satyapal Khakhal. We provide accurate gold and silver rate data, 19 free financial calculators, and daily financial news to help Indian investors make better decisions. Data sourced from MCX, IBJA, LBMA, BSE, and NSE.',
-            hi: 'gpaisa.in की स्थापना सत्यपाल खाखल ने की है। हम भारतीय निवेशकों को बेहतर निर्णय लेने में मदद करने के लिए सटीक सोने और चांदी के भाव, 19 मुफ्त वित्तीय कैलकुलेटर और दैनिक वित्तीय समाचार प्रदान करते हैं। डेटा MCX, IBJA, LBMA, BSE और NSE से प्राप्त।'
+            en: 'thinkscope.in is founded by Satyapal Khakhal. We provide accurate gold and silver rate data, 19 free financial calculators, and daily financial news to help Indian investors make better decisions. Data sourced from MCX, IBJA, LBMA, BSE, and NSE.',
+            hi: 'thinkscope.in की स्थापना सत्यपाल खाखल ने की है। हम भारतीय निवेशकों को बेहतर निर्णय लेने में मदद करने के लिए सटीक सोने और चांदी के भाव, 19 मुफ्त वित्तीय कैलकुलेटर और दैनिक वित्तीय समाचार प्रदान करते हैं। डेटा MCX, IBJA, LBMA, BSE और NSE से प्राप्त।'
         },
         quickLinks: { en: 'Quick Links', hi: 'त्वरित लिंक' },
         legalInfo: { en: 'Legal & Info', hi: 'कानूनी और जानकारी' },
@@ -54,16 +54,16 @@ export const translations = {
         goldCommodities: { en: 'Gold & Commodities', hi: 'सोना और कमोडिटी' },
         agriculturePrices: { en: 'Agriculture Prices', hi: 'कृषि मूल्य' },
         disclaimerText: {
-            en: 'The information provided on gpaisa.in is for informational purposes only and should not be considered as financial advice. Market data, prices, and rates are indicative and may not reflect real-time values. Always consult with a qualified financial advisor before making investment decisions. We are not responsible for any financial losses incurred based on information from this website.',
-            hi: 'gpaisa.in पर दी गई जानकारी केवल सूचनात्मक उद्देश्यों के लिए है और इसे वित्तीय सलाह के रूप में नहीं माना जाना चाहिए। बाज़ार डेटा, कीमतें और दरें सांकेतिक हैं और रीयल-टाइम मूल्यों को प्रतिबिंबित नहीं कर सकती हैं। निवेश निर्णय लेने से पहले हमेशा एक योग्य वित्तीय सलाहकार से परामर्श करें। इस वेबसाइट की जानकारी के आधार पर हुए किसी भी वित्तीय नुकसान के लिए हम जिम्मेदार नहीं हैं।'
+            en: 'The information provided on thinkscope.in is for informational purposes only and should not be considered as financial advice. Market data, prices, and rates are indicative and may not reflect real-time values. Always consult with a qualified financial advisor before making investment decisions. We are not responsible for any financial losses incurred based on information from this website.',
+            hi: 'thinkscope.in पर दी गई जानकारी केवल सूचनात्मक उद्देश्यों के लिए है और इसे वित्तीय सलाह के रूप में नहीं माना जाना चाहिए। बाज़ार डेटा, कीमतें और दरें सांकेतिक हैं और रीयल-टाइम मूल्यों को प्रतिबिंबित नहीं कर सकती हैं। निवेश निर्णय लेने से पहले हमेशा एक योग्य वित्तीय सलाहकार से परामर्श करें। इस वेबसाइट की जानकारी के आधार पर हुए किसी भी वित्तीय नुकसान के लिए हम जिम्मेदार नहीं हैं।'
         },
         copyright: {
             en: 'All rights reserved. Market data is provided for informational purposes only.',
             hi: 'सर्वाधिकार सुरक्षित। बाज़ार डेटा केवल सूचनात्मक उद्देश्यों के लिए प्रदान किया गया है।'
         },
         sebiDisclaimer: {
-            en: 'gpaisa.in is not registered with SEBI. All content is for informational purposes only. Please consult a SEBI-registered investment advisor before making investment decisions.',
-            hi: 'gpaisa.in SEBI के साथ पंजीकृत नहीं है। सभी सामग्री केवल सूचनात्मक उद्देश्यों के लिए है। निवेश निर्णय लेने से पहले कृपया SEBI-पंजीकृत निवेश सलाहकार से परामर्श करें।'
+            en: 'thinkscope.in is not registered with SEBI. All content is for informational purposes only. Please consult a SEBI-registered investment advisor before making investment decisions.',
+            hi: 'thinkscope.in SEBI के साथ पंजीकृत नहीं है। सभी सामग्री केवल सूचनात्मक उद्देश्यों के लिए है। निवेश निर्णय लेने से पहले कृपया SEBI-पंजीकृत निवेश सलाहकार से परामर्श करें।'
         },
     },
 
@@ -154,7 +154,7 @@ export const translations = {
             hi: 'विस्तृत सोने के भाव, ऐतिहासिक डेटा और हमारे गोल्ड कैलकुलेटर का उपयोग करने के लिए अपना शहर चुनें'
         },
         viewLiveGoldRates: { en: 'View live gold rates →', hi: 'लाइव सोने के भाव देखें →' },
-        whyChoose: { en: 'Why Choose gpaisa.in for Gold Rates?', hi: 'सोने के भाव के लिए gpaisa.in क्यों चुनें?' },
+        whyChoose: { en: 'Why Choose thinkscope.in for Gold Rates?', hi: 'सोने के भाव के लिए thinkscope.in क्यों चुनें?' },
         realTimeUpdates: { en: 'Real-Time Updates', hi: 'रीयल-टाइम अपडेट' },
         realTimeUpdatesDesc: {
             en: 'Live gold rates updated throughout the day to reflect current market prices',
@@ -268,7 +268,7 @@ export const translations = {
             hi: 'विस्तृत चांदी के भाव देखने के लिए अपना शहर चुनें'
         },
         viewLiveRates: { en: 'View live rates →', hi: 'लाइव भाव देखें →' },
-        whyTrack: { en: 'Why Track Silver Rates on gpaisa.in?', hi: 'gpaisa.in पर चांदी के भाव क्यों ट्रैक करें?' },
+        whyTrack: { en: 'Why Track Silver Rates on thinkscope.in?', hi: 'thinkscope.in पर चांदी के भाव क्यों ट्रैक करें?' },
         liveMarketData: { en: 'Live Market Data', hi: 'लाइव बाज़ार डेटा' },
         liveMarketDataDesc: {
             en: 'Real-time silver prices updated directly from market feeds.',

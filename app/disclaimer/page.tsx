@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { AlertTriangle } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Disclaimer - gpaisa.in',
-    description: 'Important disclaimer for gpaisa.in - Understand the limitations and risks associated with using financial information from our website.',
+    title: 'Disclaimer - thinkscope.in',
+    description: 'Important disclaimer for thinkscope.in - Understand the limitations and risks associated with using financial information from our website.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/disclaimer',
+        canonical: 'https://www.thinkscope.in/disclaimer',
     },
 };
 
@@ -33,7 +33,7 @@ export default function DisclaimerPage() {
                     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-8">
                         <p className="text-gray-800 font-semibold mb-2">PLEASE READ CAREFULLY</p>
                         <p className="text-gray-700">
-                            The information provided on gpaisa.in is for general informational and educational purposes only. By using this website, you acknowledge and accept the terms of this disclaimer.
+                            The information provided on thinkscope.in is for general informational and educational purposes only. By using this website, you acknowledge and accept the terms of this disclaimer.
                         </p>
                     </div>
 
@@ -48,7 +48,7 @@ export default function DisclaimerPage() {
                             </div>
 
                             <p className="text-gray-700 mb-4">
-                                All information provided on gpaisa.in, including but not limited to:
+                                All information provided on thinkscope.in, including but not limited to:
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
                                 <li>Gold and silver rates</li>
@@ -132,7 +132,7 @@ export default function DisclaimerPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">5. No Guarantees or Warranties</h2>
                             <p className="text-gray-700 mb-4">
-                                gpaisa.in is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. We make no representations or warranties of any kind, express or implied, including but not limited to:
+                                thinkscope.in is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis. We make no representations or warranties of any kind, express or implied, including but not limited to:
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
                                 <li>Warranties of merchantability or fitness for a particular purpose</li>
@@ -163,7 +163,7 @@ export default function DisclaimerPage() {
                             <div className="bg-red-50 border-l-4 border-red-500 p-4 mb-4">
                                 <p className="text-gray-800 font-semibold mb-2">LIMITATION OF LIABILITY:</p>
                                 <p className="text-gray-700">
-                                    To the maximum extent permitted by law, gpaisa.in and its owners, employees, affiliates, and partners shall NOT be liable for any damages whatsoever arising from your use of this website.
+                                    To the maximum extent permitted by law, thinkscope.in and its owners, employees, affiliates, and partners shall NOT be liable for any damages whatsoever arising from your use of this website.
                                 </p>
                             </div>
 
@@ -184,13 +184,13 @@ export default function DisclaimerPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Personal Responsibility</h2>
                             <p className="text-gray-700 mb-4">
-                                <strong>By using gpaisa.in, you agree that:</strong>
+                                <strong>By using thinkscope.in, you agree that:</strong>
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
                                 <li>You are solely responsible for your financial decisions</li>
                                 <li>You will conduct your own research and due diligence</li>
                                 <li>You understand the risks associated with investing</li>
-                                <li>You will not hold gpaisa.in liable for any losses</li>
+                                <li>You will not hold thinkscope.in liable for any losses</li>
                                 <li>You will verify all information before acting upon it</li>
                                 <li>You accept full responsibility for the consequences of your actions</li>
                             </ul>
@@ -199,14 +199,14 @@ export default function DisclaimerPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Educational Purpose Only</h2>
                             <p className="text-gray-700">
-                                All content on gpaisa.in is intended for educational and informational purposes. It is designed to help users understand financial concepts, market trends, and economic news. However, education alone is not sufficient for making investment decisions. Always combine knowledge with professional advice and personal research.
+                                All content on thinkscope.in is intended for educational and informational purposes. It is designed to help users understand financial concepts, market trends, and economic news. However, education alone is not sufficient for making investment decisions. Always combine knowledge with professional advice and personal research.
                             </p>
                         </section>
 
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Regulatory Compliance</h2>
                             <p className="text-gray-700 mb-4">
-                                gpaisa.in is not registered with or regulated by:
+                                thinkscope.in is not registered with or regulated by:
                             </p>
                             <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
                                 <li>Securities and Exchange Board of India (SEBI)</li>
@@ -229,7 +229,7 @@ export default function DisclaimerPage() {
                         <section className="mb-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Geographic Limitations</h2>
                             <p className="text-gray-700">
-                                The information on gpaisa.in is primarily intended for users in India. If you access this website from other jurisdictions, you are responsible for compliance with local laws and regulations.
+                                The information on thinkscope.in is primarily intended for users in India. If you access this website from other jurisdictions, you are responsible for compliance with local laws and regulations.
                             </p>
                         </section>
 
@@ -239,8 +239,8 @@ export default function DisclaimerPage() {
                                 If you have questions about this disclaimer, please contact us:
                             </p>
                             <div className="bg-gray-50 p-4 rounded-lg">
-                                <p className="text-gray-700"><strong>Email:</strong> <a href="mailto:contact@gpaisa.in" className="text-primary-600 hover:underline">contact@gpaisa.in</a></p>
-                                <p className="text-gray-700"><strong>Website:</strong> <a href="https://www.gpaisa.in/contact" className="text-primary-600 hover:underline">https://www.gpaisa.in/contact</a></p>
+                                <p className="text-gray-700"><strong>Email:</strong> <a href="mailto:contact@thinkscope.in" className="text-primary-600 hover:underline">contact@thinkscope.in</a></p>
+                                <p className="text-gray-700"><strong>Website:</strong> <a href="https://www.thinkscope.in/contact" className="text-primary-600 hover:underline">https://www.thinkscope.in/contact</a></p>
                             </div>
                         </section>
 
@@ -248,7 +248,7 @@ export default function DisclaimerPage() {
                             <div className="bg-gray-100 p-6 rounded-lg">
                                 <p className="text-gray-800 font-semibold mb-3">FINAL NOTICE:</p>
                                 <p className="text-gray-700 mb-3">
-                                    By continuing to use gpaisa.in, you acknowledge that you have read, understood, and agree to this disclaimer. If you do not agree with any part of this disclaimer, please discontinue use of this website immediately.
+                                    By continuing to use thinkscope.in, you acknowledge that you have read, understood, and agree to this disclaimer. If you do not agree with any part of this disclaimer, please discontinue use of this website immediately.
                                 </p>
                                 <p className="text-gray-700">
                                     <strong>Remember:</strong> When it comes to your finances, always seek professional advice, do your own research, and never invest money you cannot afford to lose.

@@ -92,14 +92,14 @@ export default function Header() {
                         <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
                             <Image
                                 src="/android-chrome-192x192.png"
-                                alt="gpaisa.in logo"
+                                alt="thinkscope.in logo"
                                 width={36}
                                 height={36}
                                 className="rounded-lg sm:w-10 sm:h-10"
                                 priority
                             />
                             <span className="text-xl sm:text-2xl font-display font-bold bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent">
-                                Gpaisa
+                                thinkscope
                             </span>
                         </Link>
                     </div>

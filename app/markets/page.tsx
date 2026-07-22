@@ -4,10 +4,10 @@ import LastUpdatedTime from '@/components/LastUpdatedTime';
 import { fetchMarketIndices } from '@/lib/indicesApi';
 
 export const metadata: Metadata = {
-    title: 'Live Stock Market Indices — Sensex, Nifty 50, Nifty Bank | gpaisa.in',
+    title: 'Live Stock Market Indices — Sensex, Nifty 50, Nifty Bank | thinkscope.in',
     description: 'Live Sensex, Nifty 50, Nifty Bank, and USD/INR index values for India, refreshed every minute.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/markets',
+        canonical: 'https://www.thinkscope.in/markets',
     },
 };
 

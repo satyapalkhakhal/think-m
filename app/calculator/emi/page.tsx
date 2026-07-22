@@ -2,17 +2,17 @@ import { Metadata } from 'next';
 import EMICalculatorClient from '@/components/EMICalculatorClient';
 
 export const metadata: Metadata = {
-    title: 'EMI Calculator - Calculate Loan EMI, Home Loan, Car Loan, Personal Loan | Gpaisa',
+    title: 'EMI Calculator - Calculate Loan EMI, Home Loan, Car Loan, Personal Loan | thinkscope',
     description: 'Free EMI Calculator to calculate monthly loan payments for home loan, car loan, personal loan, and education loan. Get instant EMI calculation with amortization schedule and total interest payable.',
     authors: [{ name: 'Satyapal Khakhal' }],
     openGraph: {
         title: 'EMI Calculator - Calculate Loan EMI Online',
         description: 'Calculate your loan EMI instantly with our free EMI calculator. Get detailed amortization schedule for home loan, car loan, and personal loan.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/emi',
+        url: 'https://www.thinkscope.in/calculator/emi',
     },
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/emi',
+        canonical: 'https://www.thinkscope.in/calculator/emi',
     },
     robots: {
         index: true,
@@ -26,35 +26,35 @@ export default function EMICalculatorPage() {
         '@graph': [
             {
                 '@type': 'WebPage',
-                '@id': 'https://www.gpaisa.in/calculator/emi#webpage',
-                url: 'https://www.gpaisa.in/calculator/emi',
+                '@id': 'https://www.thinkscope.in/calculator/emi#webpage',
+                url: 'https://www.thinkscope.in/calculator/emi',
                 name: 'EMI Calculator - Calculate Loan EMI Online',
                 description: 'Free EMI Calculator to calculate monthly loan payments for home loan, car loan, personal loan. Get instant EMI calculation with amortization schedule.',
                 isPartOf: {
-                    '@id': 'https://www.gpaisa.in/#website',
+                    '@id': 'https://www.thinkscope.in/#website',
                 },
             },
             {
                 '@type': 'BreadcrumbList',
-                '@id': 'https://www.gpaisa.in/calculator/emi#breadcrumb',
+                '@id': 'https://www.thinkscope.in/calculator/emi#breadcrumb',
                 itemListElement: [
                     {
                         '@type': 'ListItem',
                         position: 1,
                         name: 'Home',
-                        item: 'https://www.gpaisa.in',
+                        item: 'https://www.thinkscope.in',
                     },
                     {
                         '@type': 'ListItem',
                         position: 2,
                         name: 'Calculator',
-                        item: 'https://www.gpaisa.in/calculator',
+                        item: 'https://www.thinkscope.in/calculator',
                     },
                     {
                         '@type': 'ListItem',
                         position: 3,
                         name: 'EMI Calculator',
-                        item: 'https://www.gpaisa.in/calculator/emi',
+                        item: 'https://www.thinkscope.in/calculator/emi',
                     },
                 ],
             },

@@ -4,33 +4,33 @@ import IncomeTaxContent from '@/components/income-tax/IncomeTaxContent';
 import { computeIncomeTaxDefaults } from '@/lib/incomeTaxCalculations';
 
 export const metadata: Metadata = {
-  title: 'Income Tax Calculator 2026 — Old vs New Regime Comparison | gpaisa.in',
+  title: 'Income Tax Calculator 2026 — Old vs New Regime Comparison | thinkscope.in',
   description: "Free Income Tax Calculator for FY 2026-27 (AY 2027-28). Compare old vs new tax regime, calculate tax liability with 87A rebate, surcharge, and cess. Age-based slabs for senior citizens included.",
   authors: [{ name: 'Satyapal Khakhal' }],
   openGraph: {
-    title: 'Income Tax Calculator 2026 — Old vs New Regime Comparison | gpaisa.in',
+    title: 'Income Tax Calculator 2026 — Old vs New Regime Comparison | thinkscope.in',
     description: 'Compare old vs new tax regime instantly. Free income tax calculator for FY 2026-27 with 87A rebate, surcharge, and cess breakdown.',
     type: 'website',
-    url: 'https://www.gpaisa.in/calculator/income-tax',
-    siteName: 'gpaisa.in',
+    url: 'https://www.thinkscope.in/calculator/income-tax',
+    siteName: 'thinkscope.in',
     images: [
       {
         url: '/og-income-tax-calculator.jpg',
         width: 1200,
         height: 630,
-        alt: 'Income Tax Calculator 2026 — Old vs New Regime | gpaisa.in',
+        alt: 'Income Tax Calculator 2026 — Old vs New Regime | thinkscope.in',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Income Tax Calculator 2026 — Old vs New Regime | gpaisa.in',
+    title: 'Income Tax Calculator 2026 — Old vs New Regime | thinkscope.in',
     description: 'Compare old vs new tax regime instantly. Free income tax calculator for FY 2026-27 with 87A rebate, surcharge, and cess breakdown.',
-    creator: '@gpaisa_in',
+    creator: '@thinkscope_in',
     images: ['/og-income-tax-calculator.jpg'],
   },
   alternates: {
-    canonical: 'https://www.gpaisa.in/calculator/income-tax',
+    canonical: 'https://www.thinkscope.in/calculator/income-tax',
   },
   robots: {
     index: true,
@@ -53,28 +53,28 @@ export default function IncomeTaxCalculatorPage() {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.gpaisa.in/calculator/income-tax#webpage',
-        url: 'https://www.gpaisa.in/calculator/income-tax',
-        name: 'Income Tax Calculator 2026 — Old vs New Regime Comparison | gpaisa.in',
+        '@id': 'https://www.thinkscope.in/calculator/income-tax#webpage',
+        url: 'https://www.thinkscope.in/calculator/income-tax',
+        name: 'Income Tax Calculator 2026 — Old vs New Regime Comparison | thinkscope.in',
         description: 'Free Income Tax Calculator for FY 2026-27. Compare old vs new tax regime with 87A rebate, surcharge, and cess.',
-        isPartOf: { '@id': 'https://www.gpaisa.in/#website' },
+        isPartOf: { '@id': 'https://www.thinkscope.in/#website' },
         author: { '@type': 'Person', name: 'Satyapal Khakhal' },
-        breadcrumb: { '@id': 'https://www.gpaisa.in/calculator/income-tax#breadcrumb' },
+        breadcrumb: { '@id': 'https://www.thinkscope.in/calculator/income-tax#breadcrumb' },
         inLanguage: 'en-IN',
       },
       {
         '@type': 'BreadcrumbList',
-        '@id': 'https://www.gpaisa.in/calculator/income-tax#breadcrumb',
+        '@id': 'https://www.thinkscope.in/calculator/income-tax#breadcrumb',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.gpaisa.in/calculator' },
-          { '@type': 'ListItem', position: 3, name: 'Income Tax Calculator', item: 'https://www.gpaisa.in/calculator/income-tax' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+          { '@type': 'ListItem', position: 2, name: 'Calculator', item: 'https://www.thinkscope.in/calculator' },
+          { '@type': 'ListItem', position: 3, name: 'Income Tax Calculator', item: 'https://www.thinkscope.in/calculator/income-tax' },
         ],
       },
       {
         '@type': 'SoftwareApplication',
         name: 'Income Tax Calculator India 2026',
-        url: 'https://www.gpaisa.in/calculator/income-tax',
+        url: 'https://www.thinkscope.in/calculator/income-tax',
         applicationCategory: 'FinanceApplication',
         operatingSystem: 'Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' },
@@ -101,7 +101,7 @@ export default function IncomeTaxCalculatorPage() {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://www.gpaisa.in/calculator/income-tax#faq',
+        '@id': 'https://www.thinkscope.in/calculator/income-tax#faq',
         mainEntity: [
           { '@type': 'Question', name: 'Which tax regime should I choose — old or new?', acceptedAnswer: { '@type': 'Answer', text: "It depends on your total deductions. If your 80C, HRA, home loan interest, and other deductions add up to a large amount relative to your income, the old regime may work out cheaper. For most people with modest deductions, the new regime's lower rates and higher rebate threshold (₹12 lakh) result in less tax." } },
           { '@type': 'Question', name: 'Is the new tax regime the default now?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Since FY 2023-24, the new tax regime under Section 115BAC is the default. You must actively opt for the old regime when filing your return if you want to use it.' } },

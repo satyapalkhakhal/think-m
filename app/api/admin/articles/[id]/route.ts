@@ -46,7 +46,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Promise<
             excerpt: body.excerpt.trim(),
             content: body.content,
             image_url: body.image_url || '',
-            author: body.author?.trim() || 'Gpaisa Desk',
+            author: body.author?.trim() || 'thinkscope Desk',
             author_avatar: body.author_avatar || '',
             read_time: body.read_time || '',
             tags: Array.isArray(body.tags) ? body.tags : [],

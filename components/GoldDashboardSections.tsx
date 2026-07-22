@@ -68,7 +68,7 @@ export function InternalLinks() {
         { href: '/gold-affordability-index', label: 'Gold Affordability Index (1964–2026)', icon: '📉' },
         { href: '/silver-rate', label: 'Silver Rate Today', icon: '🥈' },
         { href: '/commodities', label: 'All Commodity Prices', icon: '📊' },
-        { href: '/', label: 'gpaisa.in Homepage', icon: '🏠' },
+        { href: '/', label: 'thinkscope.in Homepage', icon: '🏠' },
     ];
     return (
         <section className="mb-8 sm:mb-12">

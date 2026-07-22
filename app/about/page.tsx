@@ -4,16 +4,16 @@ import Image from 'next/image';
 import { Users, Target, Award, TrendingUp } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'About Us - gpaisa.in | Your Trusted Financial Information Portal',
-    description: 'Learn about gpaisa.in - India\'s leading financial information portal providing real-time gold rates, silver prices, market updates, and expert financial insights.',
+    title: 'About Us - thinkscope.in | Your Trusted Financial Information Portal',
+    description: 'Learn about thinkscope.in - India\'s leading financial information portal providing real-time gold rates, silver prices, market updates, and expert financial insights.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/about',
+        canonical: 'https://www.thinkscope.in/about',
     },
     openGraph: {
-        title: 'About Us - gpaisa.in',
+        title: 'About Us - thinkscope.in',
         description: 'India\'s trusted source for financial information, market updates, and investment insights.',
         type: 'website',
-        url: 'https://www.gpaisa.in/about',
+        url: 'https://www.thinkscope.in/about',
     },
 };
 
@@ -23,27 +23,27 @@ export default function AboutPage() {
     const personSchema = {
         '@context': 'https://schema.org',
         '@type': 'Person',
-        '@id': 'https://www.gpaisa.in/about#founder',
+        '@id': 'https://www.thinkscope.in/about#founder',
         name: 'Satyapal Khakhal',
         jobTitle: 'Founder & Financial Content Author',
-        url: 'https://www.gpaisa.in/about',
+        url: 'https://www.thinkscope.in/about',
         image: 'https://res.cloudinary.com/dpqtibvzn/image/upload/v1779511268/thinkscope/merzsltgiiep9ebljs6d.png',
         worksFor: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
-            url: 'https://www.gpaisa.in',
+            name: 'thinkscope.in',
+            url: 'https://www.thinkscope.in',
         },
-        description: 'Satyapal Khakhal is the founder of gpaisa.in and writes about personal finance, gold prices, investment trends, credit cards, and financial tools for Indian readers.',
+        description: 'Satyapal Khakhal is the founder of thinkscope.in and writes about personal finance, gold prices, investment trends, credit cards, and financial tools for Indian readers.',
     };
 
     const aboutPageSchema = {
         '@context': 'https://schema.org',
         '@type': 'AboutPage',
-        name: 'About gpaisa.in',
-        url: 'https://www.gpaisa.in/about',
-        description: "Learn about gpaisa.in - India's leading financial information portal providing real-time gold rates, silver prices, market updates, and expert financial insights.",
-        mainEntity: { '@id': 'https://www.gpaisa.in/about#founder' },
-        isPartOf: { '@type': 'WebSite', name: 'gpaisa.in', url: 'https://www.gpaisa.in' },
+        name: 'About thinkscope.in',
+        url: 'https://www.thinkscope.in/about',
+        description: "Learn about thinkscope.in - India's leading financial information portal providing real-time gold rates, silver prices, market updates, and expert financial insights.",
+        mainEntity: { '@id': 'https://www.thinkscope.in/about#founder' },
+        isPartOf: { '@type': 'WebSite', name: 'thinkscope.in', url: 'https://www.thinkscope.in' },
     };
 
     return (
@@ -54,7 +54,7 @@ export default function AboutPage() {
                 {/* Header */}
                 <div className="text-center mb-12">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                        About <span className="text-primary-600">gpaisa.in</span>
+                        About <span className="text-primary-600">thinkscope.in</span>
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         Your trusted source for comprehensive financial information, market insights, and investment guidance in India.
@@ -68,7 +68,7 @@ export default function AboutPage() {
                         <h2 className="text-3xl font-bold text-gray-900">Our Mission</h2>
                     </div>
                     <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                        At gpaisa.in, we are committed to empowering Indian investors and consumers with accurate, timely, and actionable financial information. Our mission is to democratize access to financial knowledge and help individuals make informed decisions about their money.
+                        At thinkscope.in, we are committed to empowering Indian investors and consumers with accurate, timely, and actionable financial information. Our mission is to democratize access to financial knowledge and help individuals make informed decisions about their money.
                     </p>
                     <p className="text-lg text-gray-700 leading-relaxed">
                         We believe that everyone deserves access to reliable financial data, whether you&apos;re tracking gold prices for your next purchase, monitoring stock market trends, or seeking expert advice on personal finance.
@@ -150,7 +150,7 @@ export default function AboutPage() {
                         <h2 className="text-3xl font-bold text-gray-900">Our Team</h2>
                     </div>
                     <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                        gpaisa.in is powered by a dedicated team of financial analysts, market researchers, and content specialists focused on making financial information accessible and easy to understand for Indian users.
+                        thinkscope.in is powered by a dedicated team of financial analysts, market researchers, and content specialists focused on making financial information accessible and easy to understand for Indian users.
                     </p>
 
                     {/* Founder / Author */}
@@ -159,7 +159,7 @@ export default function AboutPage() {
                             <div className="flex-shrink-0">
                                 <Image
                                     src="https://res.cloudinary.com/dpqtibvzn/image/upload/v1779511268/thinkscope/merzsltgiiep9ebljs6d.png"
-                                    alt="Satyapal Khakhal — Founder, gpaisa.in"
+                                    alt="Satyapal Khakhal — Founder, thinkscope.in"
                                     width={120}
                                     height={120}
                                     className="rounded-xl object-cover border-2 border-primary-100 shadow-sm"
@@ -176,7 +176,7 @@ export default function AboutPage() {
                                 </p>
 
                                 <p className="text-gray-700 leading-relaxed">
-                                    Satyapal Khakhal is the founder of gpaisa.in and writes about personal finance, gold prices, investment trends, credit cards, and financial tools for Indian readers. His focus is on simplifying complex financial topics into practical, easy-to-understand insights backed by real market data and research.
+                                    Satyapal Khakhal is the founder of thinkscope.in and writes about personal finance, gold prices, investment trends, credit cards, and financial tools for Indian readers. His focus is on simplifying complex financial topics into practical, easy-to-understand insights backed by real market data and research.
                                 </p>
                             </div>
                         </div>
@@ -203,7 +203,7 @@ export default function AboutPage() {
 
                 {/* Why Choose Us */}
                 <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg shadow-lg p-8 text-white mb-8">
-                    <h2 className="text-3xl font-bold mb-6">Why Choose gpaisa.in?</h2>
+                    <h2 className="text-3xl font-bold mb-6">Why Choose thinkscope.in?</h2>
                     <div className="grid md:grid-cols-2 gap-6">
                         <div>
                             <h3 className="text-xl font-bold mb-2">✓ Comprehensive Coverage</h3>
@@ -239,7 +239,7 @@ export default function AboutPage() {
                         <h2 className="text-3xl font-bold text-gray-900">Data Sources &amp; Transparency</h2>
                     </div>
                     <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                        gpaisa.in was established to provide transparent, real-time commodity prices to Indian retail investors. We believe every buyer — whether purchasing gold jewellery or making a financial investment — deserves access to accurate, up-to-date market data without paywalls or jargon.
+                        thinkscope.in was established to provide transparent, real-time commodity prices to Indian retail investors. We believe every buyer — whether purchasing gold jewellery or making a financial investment — deserves access to accurate, up-to-date market data without paywalls or jargon.
                     </p>
                     <p className="text-lg text-gray-700 leading-relaxed mb-6">
                         Our commitment to data accuracy is backed by sourcing from India&apos;s most trusted market institutions:
@@ -289,7 +289,7 @@ export default function AboutPage() {
                 {/* Disclaimer */}
                 <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-lg p-6">
                     <p className="text-sm text-gray-700">
-                        <strong>Disclaimer:</strong> The information provided on gpaisa.in is for educational and informational purposes only. It should not be considered as financial advice. We recommend consulting with a qualified financial advisor before making any investment decisions. Market data and prices are subject to change and may not reflect real-time values.
+                        <strong>Disclaimer:</strong> The information provided on thinkscope.in is for educational and informational purposes only. It should not be considered as financial advice. We recommend consulting with a qualified financial advisor before making any investment decisions. Market data and prices are subject to change and may not reflect real-time values.
                     </p>
                 </div>
             </div>

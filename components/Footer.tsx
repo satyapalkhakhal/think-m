@@ -15,26 +15,26 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* About */}
                     <div className="col-span-1 md:col-span-2">
-                        <h3 className="text-xl font-display font-bold text-white mb-4">gpaisa.in</h3>
+                        <h3 className="text-xl font-display font-bold text-white mb-4">thinkscope.in</h3>
                         <p className="text-sm text-gray-400 mb-4">
                             {t('footer', 'about')}
                         </p>
                         <div className="flex items-center flex-wrap gap-4">
-                            <a href="mailto:contact@gpaisa.in" className="flex items-center text-sm hover:text-primary-400 transition-colors">
+                            <a href="mailto:contact@thinkscope.in" className="flex items-center text-sm hover:text-primary-400 transition-colors">
                                 <Mail className="h-4 w-4 mr-2" />
-                                contact@gpaisa.in
+                                contact@thinkscope.in
                             </a>
                             <a
-                                href="https://twitter.com/gpaisa_in"
+                                href="https://twitter.com/thinkscope_in"
                                 target="_blank"
                                 rel="noopener"
-                                aria-label="Follow gpaisa.in on Twitter"
+                                aria-label="Follow thinkscope.in on Twitter"
                                 className="flex items-center text-sm hover:text-primary-400 transition-colors"
                             >
                                 <svg className="h-4 w-4 mr-1.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                                 </svg>
-                                @gpaisa_in
+                                @thinkscope_in
                             </a>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                         <strong>SEBI Notice:</strong> {t('footer', 'sebiDisclaimer')}
                     </p>
                     <p className="text-xs text-gray-500">
-                        © {currentYear} gpaisa.in. {t('footer', 'copyright')}
+                        © {currentYear} thinkscope.in. {t('footer', 'copyright')}
                     </p>
                 </div>
             </div>

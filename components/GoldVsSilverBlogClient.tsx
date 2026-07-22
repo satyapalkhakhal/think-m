@@ -40,7 +40,7 @@ export default function GoldVsSilverBlogClient() {
                         A no-nonsense, data-backed comparison of India's two favourite precious metals. We crunch the numbers, show you actual <strong>gold and silver prices charts</strong>, and help you decide where your money belongs.
                     </p>
                     <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 border-t border-b border-gray-200 py-3">
-                        <span className="flex items-center gap-1.5"><User className="w-4 h-4" /> gpaisa.in Research</span>
+                        <span className="flex items-center gap-1.5"><User className="w-4 h-4" /> thinkscope.in Research</span>
                         <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> 12 min read</span>
                         <span className="flex items-center gap-1.5">📅 April 16, 2026</span>
                     </div>
@@ -116,7 +116,7 @@ export default function GoldVsSilverBlogClient() {
                         </p>
                     </div>
                     <MetalPriceChart id="gold-chart" metal="gold" title="Gold Price Trend (USD per Troy Ounce)" />
-                    <p className="text-xs text-gray-400 mt-2 italic">Source: Historical metal prices converted to INR using approximate annual USD/INR rates. <strong>Gold silver price per ounce</strong> data from gpaisa.in database.</p>
+                    <p className="text-xs text-gray-400 mt-2 italic">Source: Historical metal prices converted to INR using approximate annual USD/INR rates. <strong>Gold silver price per ounce</strong> data from thinkscope.in database.</p>
                 </section>
 
                 {/* Section 2: Silver Price Trend */}
@@ -139,7 +139,7 @@ export default function GoldVsSilverBlogClient() {
                         </p>
                     </div>
                     <MetalPriceChart id="silver-chart" metal="silver" title="Silver Price Trend (USD per Troy Ounce)" />
-                    <p className="text-xs text-gray-400 mt-2 italic">Source: Historical silver prices from gpaisa.in. Converted at approximate USD/INR annual rates.</p>
+                    <p className="text-xs text-gray-400 mt-2 italic">Source: Historical silver prices from thinkscope.in. Converted at approximate USD/INR annual rates.</p>
                 </section>
 
                 {/* Combined Chart */}
@@ -274,7 +274,7 @@ export default function GoldVsSilverBlogClient() {
                         <p>Wars, trade conflicts, and political instability push gold higher as investors seek safety. Silver benefits too, but less directly. The Russia-Ukraine war and Middle East tensions of 2022–2025 were textbook examples – gold hit multiple all-time highs while silver lagged.</p>
                         <h3>4. Industrial Demand (Silver's Wild Card)</h3>
                         <p>This is what makes silver fundamentally different from gold. About 50% of silver demand comes from industry – electronics, solar panels, EVs, 5G infrastructure, and medical devices. When the global economy booms and green energy investments surge, silver demand can spike dramatically. But when recession fears hit, industrial demand drops and takes silver prices with it.</p>
-                        <p><Link href="/gold-rate" className="text-primary-600 hover:underline font-medium">→ Check today's gold rate on gpaisa.in</Link></p>
+                        <p><Link href="/gold-rate" className="text-primary-600 hover:underline font-medium">→ Check today's gold rate on thinkscope.in</Link></p>
                         <p><Link href="/silver-rate" className="text-primary-600 hover:underline font-medium">→ Check today's silver rate across Indian cities</Link></p>
                         <p><Link href="/commodities" className="text-primary-600 hover:underline font-medium">→ View all commodity prices live</Link></p>
                     </div>
@@ -323,7 +323,7 @@ export default function GoldVsSilverBlogClient() {
                             Whatever you choose, make it a deliberate, informed decision. Don't buy gold because your parents did. Don't buy silver because some YouTube influencer said it's going to ₹2 lakh per kg. Look at the data, understand your own financial goals, and invest accordingly.
                         </p>
                         <p>
-                            And of course – keep tracking prices on <Link href="/" className="text-primary-600 hover:underline font-medium">gpaisa.in</Link>. We update gold and silver rates daily across every major Indian city, so you always know exactly what you're paying.
+                            And of course – keep tracking prices on <Link href="/" className="text-primary-600 hover:underline font-medium">thinkscope.in</Link>. We update gold and silver rates daily across every major Indian city, so you always know exactly what you're paying.
                         </p>
                     </div>
                 </section>
@@ -357,7 +357,7 @@ export default function GoldVsSilverBlogClient() {
                         <User className="w-6 h-6 text-primary-700" />
                     </div>
                     <div>
-                        <p className="font-display font-bold text-gray-900">gpaisa.in Research Team</p>
+                        <p className="font-display font-bold text-gray-900">thinkscope.in Research Team</p>
                         <p className="text-sm text-gray-500 mt-1">
                             Our research team tracks commodity markets, precious metal prices, and financial trends daily. We publish data-driven guides to help Indian investors make smarter decisions.
                         </p>

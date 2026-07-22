@@ -9,17 +9,17 @@ import {
 import GoldAffordabilityChart from '@/components/gold-affordability/GoldAffordabilityChart';
 
 export const metadata: Metadata = {
-    title: 'Gold Affordability Index — How Much Gold Does ₹10,000 Buy? (1964–2026) | gpaisa.in',
-    description: 'gpaisa.in\'s Gold Affordability Index tracks how many grams of 24K gold a fixed ₹10,000 could buy every year from 1964 to 2026, using 62 years of verified RBI/IBJA price data.',
+    title: 'Gold Affordability Index — How Much Gold Does ₹10,000 Buy? (1964–2026) | thinkscope.in',
+    description: 'thinkscope.in\'s Gold Affordability Index tracks how many grams of 24K gold a fixed ₹10,000 could buy every year from 1964 to 2026, using 62 years of verified RBI/IBJA price data.',
     alternates: {
-        canonical: 'https://www.gpaisa.in/gold-affordability-index',
+        canonical: 'https://www.thinkscope.in/gold-affordability-index',
     },
     openGraph: {
-        title: 'Gold Affordability Index — How Much Gold Does ₹10,000 Buy? | gpaisa.in',
+        title: 'Gold Affordability Index — How Much Gold Does ₹10,000 Buy? | thinkscope.in',
         description: 'Track how many grams of 24K gold a fixed ₹10,000 could buy each year from 1964 to 2026.',
         type: 'article',
-        url: 'https://www.gpaisa.in/gold-affordability-index',
-        siteName: 'gpaisa.in',
+        url: 'https://www.thinkscope.in/gold-affordability-index',
+        siteName: 'thinkscope.in',
     },
     robots: { index: true, follow: true },
 };
@@ -37,11 +37,11 @@ export default function GoldAffordabilityIndexPage() {
     const datasetSchema = {
         '@context': 'https://schema.org',
         '@type': 'Dataset',
-        name: 'gpaisa.in Gold Affordability Index (1964–2026)',
+        name: 'thinkscope.in Gold Affordability Index (1964–2026)',
         description: `Grams of 24K gold a fixed ₹${AFFORDABILITY_REFERENCE_AMOUNT.toLocaleString('en-IN')} could buy, by year, derived from annual 24K gold prices in India from 1964 to 2026.`,
-        url: 'https://www.gpaisa.in/gold-affordability-index',
+        url: 'https://www.thinkscope.in/gold-affordability-index',
         license: 'https://creativecommons.org/licenses/by/4.0/',
-        creator: { '@type': 'Organization', name: 'gpaisa.in', url: 'https://www.gpaisa.in' },
+        creator: { '@type': 'Organization', name: 'thinkscope.in', url: 'https://www.thinkscope.in' },
         temporalCoverage: '1964/2026',
         variableMeasured: 'Grams of 24K gold purchasable with a fixed ₹10,000',
         measurementTechnique: 'Derived from annual average 24K gold spot price per 10 grams (RBI Handbook of Statistics, IBJA, MCX)',
@@ -52,15 +52,15 @@ export default function GoldAffordabilityIndexPage() {
         '@type': 'Article',
         headline: 'Gold Affordability Index — How Much Gold Does ₹10,000 Buy? (1964–2026)',
         description: 'A 62-year index tracking how many grams of 24K gold a fixed ₹10,000 could buy in India, year by year.',
-        author: { '@type': 'Organization', name: 'gpaisa.in', url: 'https://www.gpaisa.in' },
+        author: { '@type': 'Organization', name: 'thinkscope.in', url: 'https://www.thinkscope.in' },
         publisher: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
-            logo: { '@type': 'ImageObject', url: 'https://www.gpaisa.in/icon-512.png' },
+            name: 'thinkscope.in',
+            logo: { '@type': 'ImageObject', url: 'https://www.thinkscope.in/icon-512.png' },
         },
         datePublished: '2026-07-18',
         dateModified: '2026-07-18',
-        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.gpaisa.in/gold-affordability-index' },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://www.thinkscope.in/gold-affordability-index' },
         inLanguage: 'en-IN',
     };
 
@@ -68,8 +68,8 @@ export default function GoldAffordabilityIndexPage() {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.gpaisa.in' },
-            { '@type': 'ListItem', position: 2, name: 'Gold Affordability Index', item: 'https://www.gpaisa.in/gold-affordability-index' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.thinkscope.in' },
+            { '@type': 'ListItem', position: 2, name: 'Gold Affordability Index', item: 'https://www.thinkscope.in/gold-affordability-index' },
         ],
     };
 
@@ -83,7 +83,7 @@ export default function GoldAffordabilityIndexPage() {
                 <header className="mb-8 text-center">
                     <div className="flex items-center justify-center gap-3 mb-3">
                         <TrendingDown className="h-9 w-9 text-amber-600" />
-                        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">gpaisa.in Gold Affordability Index</h1>
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">thinkscope.in Gold Affordability Index</h1>
                     </div>
                     <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
                         How many grams of 24K gold has a fixed ₹{AFFORDABILITY_REFERENCE_AMOUNT.toLocaleString('en-IN')} bought, every year, from 1964 to 2026?
@@ -136,7 +136,7 @@ export default function GoldAffordabilityIndexPage() {
                                 This index measures only the gold-purchasing-power of a fixed nominal ₹{AFFORDABILITY_REFERENCE_AMOUNT.toLocaleString('en-IN')} — it does <strong>not</strong> adjust for inflation, and it does <strong>not</strong> incorporate wage or income data. We deliberately avoided pairing this with a historical Indian salary series because no reliably verifiable year-by-year income dataset exists for the full 1964–2026 span; publishing an estimated one would risk presenting fabricated figures as fact.
                             </p>
                             <p className="text-sm text-gray-600 leading-relaxed">
-                                Underlying gold prices are the same annual 24K rates (per 10 grams, INR) used throughout gpaisa.in's{' '}
+                                Underlying gold prices are the same annual 24K rates (per 10 grams, INR) used throughout thinkscope.in's{' '}
                                 <Link href="/gold-rate#gold-price-history" className="text-amber-700 underline hover:text-amber-800">historical gold price dataset</Link>
                                 , sourced from the RBI Handbook of Statistics, IBJA, and MCX historical records.
                             </p>

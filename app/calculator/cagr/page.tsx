@@ -2,17 +2,17 @@ import { Metadata } from 'next';
 import CAGRCalculatorClient from '@/components/CAGRCalculatorClient';
 
 export const metadata: Metadata = {
-    title: 'CAGR Calculator - Compound Annual Growth Rate Calculator Online | Gpaisa',
+    title: 'CAGR Calculator - Compound Annual Growth Rate Calculator Online | thinkscope',
     description: 'Free CAGR calculator to calculate Compound Annual Growth Rate for investments. Measure mean annual growth rate of stocks, mutual funds, and portfolios. Get instant CAGR calculation with detailed analysis.',
     authors: [{ name: 'Satyapal Khakhal' }],
     openGraph: {
-        title: 'CAGR Calculator - Calculate Compound Annual Growth Rate | Gpaisa',
+        title: 'CAGR Calculator - Calculate Compound Annual Growth Rate | thinkscope',
         description: 'Calculate CAGR for your investments instantly. Free online Compound Annual Growth Rate calculator for stocks, mutual funds, and portfolios.',
         type: 'website',
-        url: 'https://www.gpaisa.in/calculator/cagr',
+        url: 'https://www.thinkscope.in/calculator/cagr',
     },
     alternates: {
-        canonical: 'https://www.gpaisa.in/calculator/cagr',
+        canonical: 'https://www.thinkscope.in/calculator/cagr',
     },
 };
 
@@ -49,7 +49,7 @@ export default function CAGRCalculatorPage() {
             },
             {
                 '@type': 'FAQPage',
-                '@id': 'https://www.gpaisa.in/calculator/cagr#faq',
+                '@id': 'https://www.thinkscope.in/calculator/cagr#faq',
                 mainEntity: [
                     { '@type': 'Question', name: 'What is a good CAGR?', acceptedAnswer: { '@type': 'Answer', text: 'A good CAGR depends on the asset class. For equity, 12-15% is considered good. For debt, 7-9% is acceptable. Always compare CAGR against the relevant benchmark.' } },
                     { '@type': 'Question', name: 'Is CAGR same as returns?', acceptedAnswer: { '@type': 'Answer', text: 'No. CAGR is the average compounded growth rate. Actual yearly returns may vary wildly. CAGR smooths them into a single number for easy comparison.' } },

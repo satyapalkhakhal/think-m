@@ -21,23 +21,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     if (!article) {
         return {
-            title: 'Article Not Found | gpaisa.in',
+            title: 'Article Not Found | thinkscope.in',
         };
     }
 
     const publishedTime = new Date(article.published_at || Date.now()).toISOString();
 
     return {
-        title: `${article.title} | gpaisa.in`,
+        title: `${article.title} | thinkscope.in`,
         description: article.excerpt || article.title,
-        authors: [{ name: article.author || 'Gpaisa Desk' }],
+        authors: [{ name: article.author || 'thinkscope Desk' }],
         openGraph: {
             title: article.title,
             description: article.excerpt || article.title,
             type: 'article',
             publishedTime,
             modifiedTime: publishedTime,
-            authors: [article.author || 'Gpaisa Desk'],
+            authors: [article.author || 'thinkscope Desk'],
             images: article.image_url ? [
                 {
                     url: article.image_url,
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
                     alt: article.title,
                 }
             ] : [],
-            siteName: 'gpaisa.in',
+            siteName: 'thinkscope.in',
         },
         twitter: {
             card: 'summary_large_image',
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             images: article.image_url ? [article.image_url] : [],
         },
         alternates: {
-            canonical: `https://www.gpaisa.in/articles/${article.slug}`,
+            canonical: `https://www.thinkscope.in/articles/${article.slug}`,
         },
         robots: isDroppedCategory(article.category)
             ? { index: false, follow: true }
@@ -102,25 +102,25 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         '@type': 'Article',
         headline: article.title,
         description: article.excerpt || article.title,
-        image: article.image_url || 'https://www.gpaisa.in/android-chrome-512x512.png',
+        image: article.image_url || 'https://www.thinkscope.in/android-chrome-512x512.png',
         datePublished: publishedDate.toISOString(),
         dateModified: publishedDate.toISOString(),
         author: {
             '@type': 'Person',
-            name: article.author || 'Gpaisa Desk',
-            url: 'https://www.gpaisa.in/about',
+            name: article.author || 'thinkscope Desk',
+            url: 'https://www.thinkscope.in/about',
         },
         publisher: {
             '@type': 'Organization',
-            name: 'gpaisa.in',
+            name: 'thinkscope.in',
             logo: {
                 '@type': 'ImageObject',
-                url: 'https://www.gpaisa.in/android-chrome-512x512.png',
+                url: 'https://www.thinkscope.in/android-chrome-512x512.png',
             },
         },
         mainEntityOfPage: {
             '@type': 'WebPage',
-            '@id': `https://www.gpaisa.in/articles/${article.slug}`,
+            '@id': `https://www.thinkscope.in/articles/${article.slug}`,
         },
     };
 
@@ -132,19 +132,19 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://www.gpaisa.in',
+                item: 'https://www.thinkscope.in',
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: article.category || 'News',
-                item: `https://www.gpaisa.in/news`,
+                item: `https://www.thinkscope.in/news`,
             },
             {
                 '@type': 'ListItem',
                 position: 3,
                 name: article.title,
-                item: `https://www.gpaisa.in/articles/${article.slug}`,
+                item: `https://www.thinkscope.in/articles/${article.slug}`,
             },
         ],
     };
@@ -216,7 +216,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                                 <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-gray-500 pb-4 border-b border-gray-100">
                                     <span className="flex items-center gap-1.5">
                                         <User className="w-3.5 h-3.5" />
-                                        <span className="font-medium text-gray-700">{article.author || 'Gpaisa Desk'}</span>
+                                        <span className="font-medium text-gray-700">{article.author || 'thinkscope Desk'}</span>
                                     </span>
                                     <span className="flex items-center gap-1.5">
                                         <Calendar className="w-3.5 h-3.5" />
@@ -281,7 +281,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                                         {(article.author || 'G')[0].toUpperCase()}
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-sm text-gray-900">{article.author || 'Gpaisa Desk'}</div>
+                                        <div className="font-semibold text-sm text-gray-900">{article.author || 'thinkscope Desk'}</div>
                                         <div className="text-xs text-gray-500">{formattedDate}</div>
                                     </div>
                                 </div>
