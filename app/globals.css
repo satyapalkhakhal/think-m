@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Prevent horizontal overflow site-wide */
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans antialiased;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-semibold;
+  }
+}
+
+@layer components {
+
+  /* Price change indicators */
+  .price-up {
+    @apply text-success-600 bg-success-50;
+  }
+
+  .price-down {
+    @apply text-danger-600 bg-danger-50;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 hover:shadow-md transition-shadow duration-200;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply bg-primary-500 text-white px-5 sm:px-6 py-2.5 rounded-lg font-medium hover:bg-primary-600 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 text-gray-700 px-5 sm:px-6 py-2.5 rounded-lg font-medium hover:bg-gray-200 transition-colors duration-200;
+  }
+
+  /* Market ticker animation */
+  .ticker-scroll {
+    animation: scroll 30s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Loading skeleton */
+  .skeleton {
+    @apply animate-pulse bg-gray-200 rounded;
+  }
+
+  /* Mobile menu slide animation */
+  .mobile-menu-enter {
+    animation: slideDown 0.25s ease-out forwards;
+  }
+
+  .mobile-menu-exit {
+    animation: slideUp 0.2s ease-in forwards;
+  }
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      max-height: 0;
+      transform: translateY(-8px);
+    }
+
+    to {
+      opacity: 1;
+      max-height: 100vh;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 1;
+      max-height: 100vh;
+      transform: translateY(0);
+    }
+
+    to {
+      opacity: 0;
+      max-height: 0;
+      transform: translateY(-8px);
+    }
+  }
+
+  /* Article Content Styles */
+  .article-content {
+    max-width: 100%;
+    color: #374151;
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  .article-content h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .article-content h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+  }
+
+  .article-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111827;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .article-content p {
+    margin-bottom: 1.25rem;
+    color: #4b5563;
+    line-height: 1.8;
+  }
+
+  .article-content strong {
+    font-weight: 600;
+    color: #111827;
+  }
+
+  .article-content ul,
+  .article-content ol {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+  }
+
+  .article-content ul {
+    list-style-type: disc;
+  }
+
+  .article-content ol {
+    list-style-type: decimal;
+  }
+
+  .article-content li {
+    margin-bottom: 0.5rem;
+    color: #4b5563;
+    line-height: 1.7;
+  }
+
+  .article-content a {
+    color: #1E7F43;
+    text-decoration: none;
+  }
+
+  .article-content a:hover {
+    text-decoration: underline;
+  }
+
+  .article-content blockquote {
+    border-left: 4px solid #1E7F43;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #6b7280;
+  }
+
+  .article-content code {
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-family: monospace;
+  }
+
+  .article-content pre {
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  .article-content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+  }
+
+  .article-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .article-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+
+  .article-content th,
+  .article-content td {
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .article-content th {
+    background-color: #f9fafb;
+    font-weight: 600;
+  }
+
+  @media (max-width: 640px) {
+    .article-content {
+      font-size: 1rem;
+    }
+
+    .article-content h1 {
+      font-size: 1.125rem;
+    }
+
+    .article-content h2 {
+      font-size: 1rem;
+    }
+
+    .article-content h3 {
+      font-size: 0.95rem;
+    }
+  }
+
+  /* ===== SIP Calculator — Groww-style Mobile-First Styles ===== */
+
+  /* Slider Thumb — WebKit (mobile-first: 22px, Groww green) */
+  .sip-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid var(--thumb-border, #00d09c);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 0 0 3px rgba(0, 208, 156, 0.08);
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .sip-slider::-webkit-slider-runnable-track {
+    height: 3px;
+    border-radius: 2px;
+    background: transparent;
+  }
+
+  /* Slider Thumb — Firefox (mobile-first: 22px) */
+  .sip-slider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid var(--thumb-border, #00d09c);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 0 0 3px rgba(0, 208, 156, 0.08);
+    cursor: pointer;
+  }
+
+  .sip-slider::-moz-range-track {
+    height: 3px;
+    border-radius: 2px;
+    background: transparent;
+  }
+
+  /* Desktop: slightly smaller thumb */
+  @media (min-width: 768px) {
+    .sip-slider::-webkit-slider-thumb {
+      width: 18px;
+      height: 18px;
+    }
+    .sip-slider::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  /* Hover effects only on devices that support hover (not mobile) */
+  @media (hover: hover) {
+    .sip-slider::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15), 0 0 0 5px rgba(0, 208, 156, 0.12);
+    }
+    .sip-slider::-webkit-slider-thumb:active {
+      transform: scale(1.05);
+    }
+  }
+
+  /* Focus ring */
+  .sip-slider:focus {
+    outline: none;
+  }
+  .sip-slider:focus::-webkit-slider-thumb {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 0 0 5px rgba(0, 208, 156, 0.15);
+  }
+
+  /* Touch-friendly: remove tap highlight across all SIP interactive elements */
+  .sip-touch-target {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  /* Mobile-optimized scroll container for tables */
+  .sip-scroll-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #e5e7eb transparent;
+  }
+  .sip-scroll-container::-webkit-scrollbar {
+    height: 4px;
+  }
+  .sip-scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .sip-scroll-container::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 2px;
+  }
+
+  /* Chart responsive height */
+  .sip-chart-container {
+    height: 250px;
+  }
+  @media (min-width: 768px) {
+    .sip-chart-container {
+      height: 340px;
+    }
+  }
+}
+
+/* News ticker marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Cookie consent banner animations */
+@keyframes cookieSlideIn {
+  0% { opacity: 0; transform: translateY(100%); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes cookieSlideOut {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(100%); }
+}
+.animate-cookie-in {
+  animation: cookieSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.animate-cookie-out {
+  animation: cookieSlideOut 0.35s ease-in forwards;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
